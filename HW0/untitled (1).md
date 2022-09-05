@@ -38,7 +38,7 @@ The table below shows an example confusion matrix (you'll see this term later) f
 
 ## Discussion
 
-I am familiar using markdown in the jupyter hub. I used Dillinger and everything is the same in this homework except for inserting images. This is what made me switch back to jupyter as I couldn't quite figure it out after an hour of self exploration. 
+I am familiar using markdown in the jupyter hub. I used Dillinger just to get some experience with another way to use markdown. It is all the same, but all my school files are in jupyter so I will likely continue to use that. The image tripped me up for a little bit, but after creating a md in github, I was able to just copy and paste my image url and that worked. I couldn't get my picture to be a local file in Dillinger, so this was the solution I came up with. 
 
 # Q2
 
