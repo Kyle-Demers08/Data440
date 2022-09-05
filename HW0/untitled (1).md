@@ -11,7 +11,7 @@
 
 This is a picture of my face.
 
-![image.png][(attachment:aac9fc31-2994-459d-9b5a-d3b1fab040de.png)](https://tribeathletics.com/images/2021/11/17/21Demers_HS.jpg)
+![My Face](https://tribeathletics.com/images/2021/11/17/21Demers_HS.jpg)
 
 *If you want to include code in your report, you can insert a screenshot (if it's legible), or you can copy/paste the code into a fenced code block.*
 
