@@ -48,6 +48,35 @@ chmod to 700 giving me RWX permission and nobody else
 
 <img width="298" alt="image" src="https://user-images.githubusercontent.com/112887807/189013256-5b7fb0c5-1f86-4f17-a8a4-4f615dbdcf95.png">
 
+<img width="224" alt="image" src="https://user-images.githubusercontent.com/112887807/189170949-289dfbde-26f8-4b7a-b53b-53686390bc1e.png">
+
+This command displays how many lines are in the test.txt file
+
+<img width="366" alt="image" src="https://user-images.githubusercontent.com/112887807/189171352-3ac5f1b9-65b5-4db8-ae86-5a6fe385c698.png">
+
+This command adds "CS 800" to the end of the test.txt file
+
+<img width="232" alt="image" src="https://user-images.githubusercontent.com/112887807/189171534-a4f74b5a-47b8-45e5-917f-3d55ba3ef881.png">
+
+This command gets and displays all lines with "CS" in the test.txt file
+
+<img width="248" alt="image" src="https://user-images.githubusercontent.com/112887807/189171761-02841951-d657-4113-a6e5-e1f953e2611f.png">
+
+This command counts the number of lines containing CS in the test.txt file
+
+<img width="218" alt="image" src="https://user-images.githubusercontent.com/112887807/189172059-03ee0d37-b102-4620-a4b6-263022584667.png">
+
+This command sorts the test.txt in alphabetical and numerical order
+
+<img width="250" alt="image" src="https://user-images.githubusercontent.com/112887807/189172570-90b940b7-559d-408e-8228-5680e0bf5e67.png">
+
+This command sorts test.txt in reverse alphabetical and numerically high to low
+
+<img width="250" alt="image" src="https://user-images.githubusercontent.com/112887807/189172782-d5ba8974-7752-4ed4-ba0c-867c0456249c.png">
+
+this command sorts test.txt Reverse alphabetically and numerically low to high
+
+
 
 
 ## Discussion
