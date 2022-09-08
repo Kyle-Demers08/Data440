@@ -76,8 +76,9 @@ This command sorts test.txt in reverse alphabetical and numerically high to low
 
 this command sorts test.txt Reverse alphabetically and numerically low to high
 
+<img width="283" alt="image" src="https://user-images.githubusercontent.com/112887807/189173142-744a781b-4a14-41d8-a5fd-33d94594dcd1.png">
 
-
+This command sorts the test.txt file and count the number of duplicates in that file
 
 ## Discussion
 
