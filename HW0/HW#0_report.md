@@ -20,6 +20,7 @@ print('Hello World')
 ```
 
 The table below shows a simple table.  
+Edit the table to look like our syllabus.
 
 |Week|Date|Topic|
 |:---|:---|:---|
