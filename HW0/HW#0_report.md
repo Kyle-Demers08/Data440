@@ -98,7 +98,8 @@ After running the process data line this was my result of a few lines.
 <img width="947" alt="image" src="https://user-images.githubusercontent.com/112887807/189941393-22b2f0d7-df4d-4d80-9f3f-8a9e52fce1bc.png">
 
 ## Discussion
-
+For the first part I had to go to stack overflow and see that my file path needed two / to get to the actual file path. 
+In the second part, I had to use the class Piazza to figure out I needed to use cmd in powershell to run the processtweets.py code.
 
 # References
 
