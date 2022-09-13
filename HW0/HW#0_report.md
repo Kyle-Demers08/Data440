@@ -105,4 +105,4 @@ After running the process data line this was my result of a few lines.
 * Basic Syntax | Markdown Guide, <https://www.markdownguide.org/basic-syntax/#images-1>
 * Teaching-web-science-syllabus, <https://github.com/anwala/teaching-web-science/blob/main/fall-2022/syllabus.md#summary-schedule>
 * Class Piazza, <https://piazza.com/class/l3k72ehiq8z40r/post/8>
-Stack Overflow, <https://stackoverflow.com/questions/37400974/unicode-error-unicodeescape-codec-cant-decode-bytes-in-position-2-3-trunca>
+* Stack Overflow, <https://stackoverflow.com/questions/37400974/unicode-error-unicodeescape-codec-cant-decode-bytes-in-position-2-3-trunca>
