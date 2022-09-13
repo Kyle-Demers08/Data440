@@ -44,7 +44,7 @@ I am familiar using markdown in the jupyter hub. I used Dillinger just to get so
 # Q2
 
 ## Answer
-Note that I previously made the directory without screenshotting the results hence the file exists line. /n
+Note that I previously made the directory without screenshotting the results hence the file exists line. \n
 chmod to 700 giving me RWX permission and nobody else
 
 <img width="298" alt="image" src="https://user-images.githubusercontent.com/112887807/189013256-5b7fb0c5-1f86-4f17-a8a4-4f615dbdcf95.png">
