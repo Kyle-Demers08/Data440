@@ -87,16 +87,18 @@ This command sorts the test.txt file and count the number of duplicates in that 
 Use Twarc to get and process tweets. 
 
 ## Answer
-This is the result of getting tweets using the default parameter of "Covid"
+This is the result of getting tweets using the default parameter of "Coronavirus"
+% python3 get_tweets.py
 
 <img width="946" alt="image" src="https://user-images.githubusercontent.com/112887807/189940540-8ff3375a-47be-4c8e-bc3e-170c772eaee1.png">
 
 After running the process data line this was my result of a few lines.
+% python3 process_tweets.py < tweets.jsonl > tweets_info.txt
 
 <img width="947" alt="image" src="https://user-images.githubusercontent.com/112887807/189941393-22b2f0d7-df4d-4d80-9f3f-8a9e52fce1bc.png">
 
-
 ## Discussion
+
 
 # References
 
