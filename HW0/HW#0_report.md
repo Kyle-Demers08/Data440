@@ -113,3 +113,4 @@ In the second part, I had to use the class Piazza to figure out I needed to use 
 * Teaching-web-science-syllabus, <https://github.com/anwala/teaching-web-science/blob/main/fall-2022/syllabus.md#summary-schedule>
 * Class Piazza, <https://piazza.com/class/l3k72ehiq8z40r/post/8>
 * Stack Overflow, <https://stackoverflow.com/questions/37400974/unicode-error-unicodeescape-codec-cant-decode-bytes-in-position-2-3-trunca>
+@anwala Ready to grade!
