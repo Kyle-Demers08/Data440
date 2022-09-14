@@ -90,17 +90,19 @@ Use Twarc to get and process tweets.
 
 ## Answer
 This is the result of getting tweets using the default parameter of "Coronavirus"
+
 % python3 get_tweets.py
 
 <img width="946" alt="image" src="https://user-images.githubusercontent.com/112887807/189940540-8ff3375a-47be-4c8e-bc3e-170c772eaee1.png">
 
-After running the process data line this was my result of a few lines.
+After running the process data command, this was my result of my first few lines.
+
 % python3 process_tweets.py < tweets.jsonl > tweets_info.txt
 
 <img width="947" alt="image" src="https://user-images.githubusercontent.com/112887807/189941393-22b2f0d7-df4d-4d80-9f3f-8a9e52fce1bc.png">
 
 ## Discussion
-For the first part I had to go to stack overflow and see that my file path needed two / to get to the actual file path. 
+For the first part I had to go to stack overflow and see that my file path needed two \'s to get to the actual file path. This is different from the linux terminal. It appears that I needed to convert my "normal string into a raw string" (stack overflow). 
 In the second part, I had to use the class Piazza to figure out I needed to use cmd in powershell to run the processtweets.py code.
 
 # References
