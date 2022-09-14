@@ -44,7 +44,7 @@ I am familiar using markdown in the jupyter hub. I used Dillinger just to get so
 # Q2
 
 ## Answer
-Note that I previously made the directory without screenshotting the results hence the file exists line. 
+Note that I previously made the directory without screenshotting the results hence the file exists line. This was the command I used to create the Data 440 folder.
 
 chmod to 700 giving me RWX permission and nobody else
 
