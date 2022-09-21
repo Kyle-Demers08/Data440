@@ -12,7 +12,7 @@ Draw the resulting directed graph (either sketch on paper or use another tool) s
 <img width="625" alt="image" src="https://user-images.githubusercontent.com/112887807/191019192-12c3cb47-8bb0-41ec-95e1-52ea96b27576.png">
 
 
-## Discussion
+## Discussion 
 
 # Q2
 
