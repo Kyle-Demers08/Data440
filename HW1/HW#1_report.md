@@ -18,6 +18,16 @@ Draw the resulting directed graph (either sketch on paper or use another tool) s
 
 ## Answer
 
+<img width="740" alt="image" src="https://user-images.githubusercontent.com/112887807/192108180-fe9bc9c9-3433-4f07-b527-cd29dc405c16.png">
+This is my user agent
+
+<img width="880" alt="image" src="https://user-images.githubusercontent.com/112887807/192108988-b4da7946-0780-4d58-aa75-dc27b39a23a2.png">
+
+I followed the redirects using this command. Note the "301" which implies that the address has been permanently moved to "Location"
+
+<img width="947" alt="image" src="https://user-images.githubusercontent.com/112887807/192108935-516d5ced-0384-448b-9f02-17740a6a9595.png">
+
+after following the redirect, I applied the head command.
 ## Discussion
 
 # Q3
