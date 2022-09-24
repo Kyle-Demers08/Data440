@@ -28,6 +28,10 @@ I followed the redirects using this command. Note the "301" which implies that t
 <img width="947" alt="image" src="https://user-images.githubusercontent.com/112887807/192108935-516d5ced-0384-448b-9f02-17740a6a9595.png">
 
 after following the redirect, I applied the head command.
+
+<img width="473" alt="image" src="https://user-images.githubusercontent.com/112887807/192109163-5c087751-f47f-45ed-b9ce-d67912360284.png">
+
+I went back to the first url to test ways to change my user agent
 ## Discussion
 
 # Q3
