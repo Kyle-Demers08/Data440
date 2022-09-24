@@ -32,6 +32,10 @@ after following the redirect, I applied the head command.
 <img width="473" alt="image" src="https://user-images.githubusercontent.com/112887807/192109163-5c087751-f47f-45ed-b9ce-d67912360284.png">
 
 I went back to the first url to test ways to change my user agent
+
+<img width="952" alt="image" src="https://user-images.githubusercontent.com/112887807/192110928-52971336-b7f5-4293-ad6f-cac164930a01.png">
+
+I added the change user agent command and then revisited the 2nd website under that new user agent.
 ## Discussion
 
 # Q3
