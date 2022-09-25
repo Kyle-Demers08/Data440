@@ -42,6 +42,9 @@ I added the change user agent command and then revisited the 2nd website under t
 
 ## Answer
 
+<img width="749" alt="image" src="https://user-images.githubusercontent.com/112887807/192171265-4289784a-6ad3-4c27-a4dd-85f3610ca0d0.png">
+
+
 ## Discussion
 
 # References
