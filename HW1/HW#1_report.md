@@ -57,6 +57,8 @@ Your program must do the following:
 
 ## Answer
 
+Here are the results of running the function, passing the url as as the argument.
+
 <img width="749" alt="image" src="https://user-images.githubusercontent.com/112887807/192171265-4289784a-6ad3-4c27-a4dd-85f3610ca0d0.png">
 
 
