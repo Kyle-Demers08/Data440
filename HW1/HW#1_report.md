@@ -11,8 +11,25 @@ Draw the resulting directed graph (either sketch on paper or use another tool) s
 
 <img width="625" alt="image" src="https://user-images.githubusercontent.com/112887807/191019192-12c3cb47-8bb0-41ec-95e1-52ea96b27576.png">
 
+ - A) SCC
+ - B) SCC
+ - C) SCC
+ - D) OUT
+ - E) TENDRIL (IN)
+ - F) TENDRIL (OUT)
+ - G) SCC
+ - H) OUT
+ - I) TUBE
+ - K) TENDRIL (OUT)
+ - L) TUBE (IN)
+ - M) IN
+ - N) TUBE (IN)
+ - O) IN
+ - P) IN
 
 ## Discussion 
+
+I found a website that displays directed graphs. Unfortunately the tendrils and tubes get a little sloppy as there is no way to shape the lines differently. 
 
 # Q2
 
@@ -43,6 +60,8 @@ I added the change user agent command and then revisited the 2nd website under t
 <img width="952" alt="image" src="https://user-images.githubusercontent.com/112887807/192110928-52971336-b7f5-4293-ad6f-cac164930a01.png">
 
 ## Discussion
+
+This was pretty interesting to connect things we've learned/talked about in class to what is done at home. It was nice being able to understand all the errors and be able to read most of what the computer was telling me. 
 
 # Q3
 
@@ -78,6 +97,8 @@ Here are the results of running the function, passing the uri as as the paramete
 
 
 ## Discussion
+
+The hardest part of this was suprisingly finding pages with PDFs. I had to do some creative problem solving at some points in my process, and really work each piece little by little. I think documenting all of my steps made it pretty easy to follow. 
 
 # References
 
