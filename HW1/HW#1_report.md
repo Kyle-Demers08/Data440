@@ -18,15 +18,15 @@ Draw the resulting directed graph (either sketch on paper or use another tool) s
 
 a) First, load this URI https://httpbin.org/user-agent directly in your browser and take a screenshot. The resulting webpage should show the "User-Agent" HTTP request header that your web browser sends to the web server.
 
+b) In a single curl command, issue a HEAD HTTP request for the URI, https://t.co/EYgdZgrm2W. Show the HTTP response headers, follow any redirects, and change the User-Agent HTTP request field to "DATA 440." Show the command you issued and the result of your execution on the command line. (Either take a screenshot of your terminal or copy/paste into a code segment.)
+
 ## Answer
 
 a) I first ran this command to find my user agent using the website
 
 <img width="740" alt="image" src="https://user-images.githubusercontent.com/112887807/192108180-fe9bc9c9-3433-4f07-b527-cd29dc405c16.png">
 
-b) In a single curl command, issue a HEAD HTTP request for the URI, https://t.co/EYgdZgrm2W. Show the HTTP response headers, follow any redirects, and change the User-Agent HTTP request field to "DATA 440." Show the command you issued and the result of your execution on the command line. (Either take a screenshot of your terminal or copy/paste into a code segment.)
-
-I followed the redirects using this command. Note the "301" which implies that the address has been permanently moved to "Location"
+b) I followed the redirects using this command. Note the "301" which implies that the address has been permanently moved to "Location"
 
 <img width="880" alt="image" src="https://user-images.githubusercontent.com/112887807/192108988-b4da7946-0780-4d58-aa75-dc27b39a23a2.png">
 
