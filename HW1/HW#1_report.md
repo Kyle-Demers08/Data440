@@ -30,18 +30,18 @@ I followed the redirects using this command. Note the "301" which implies that t
 
 <img width="880" alt="image" src="https://user-images.githubusercontent.com/112887807/192108988-b4da7946-0780-4d58-aa75-dc27b39a23a2.png">
 
+after following the redirect, I applied the head command.
 
 <img width="947" alt="image" src="https://user-images.githubusercontent.com/112887807/192108935-516d5ced-0384-448b-9f02-17740a6a9595.png">
 
-after following the redirect, I applied the head command.
+I went back to the first url to test ways to change my user agent
 
 <img width="473" alt="image" src="https://user-images.githubusercontent.com/112887807/192109163-5c087751-f47f-45ed-b9ce-d67912360284.png">
 
-I went back to the first url to test ways to change my user agent
+I added the change user agent command and then revisited the 2nd website under that new user agent.
 
 <img width="952" alt="image" src="https://user-images.githubusercontent.com/112887807/192110928-52971336-b7f5-4293-ad6f-cac164930a01.png">
 
-I added the change user agent command and then revisited the 2nd website under that new user agent.
 ## Discussion
 
 # Q3
