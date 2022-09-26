@@ -20,10 +20,10 @@ a) First, load this URI https://httpbin.org/user-agent directly in your browser 
 
 ## Answer
 
-a)
+a) I first ran this command to find my user agent using the website
+
 <img width="740" alt="image" src="https://user-images.githubusercontent.com/112887807/192108180-fe9bc9c9-3433-4f07-b527-cd29dc405c16.png">
 
-This is my user agent
 
 <img width="880" alt="image" src="https://user-images.githubusercontent.com/112887807/192108988-b4da7946-0780-4d58-aa75-dc27b39a23a2.png">
 
