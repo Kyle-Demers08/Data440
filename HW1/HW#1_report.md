@@ -62,9 +62,11 @@ First I imported the necessary modules being beautiful soup and requests.
 
 Then I looked at all the links from the first webpage and made sure I was getting the 8 predetermined pdfs. 
 
-<img width="245" alt="image" src="https://user-images.githubusercontent.com/112887807/192298576-cdda9bf3-598e-4e99-b1e4-ad11e4ee1815.png">
+<img width="527" alt="image" src="https://user-images.githubusercontent.com/112887807/192301462-3ad3c297-1bb3-478c-a831-2f391794b5c3.png">
 
 I had to determine which ones were PDFs so I played around with the code until this worked.
+
+<img width="245" alt="image" src="https://user-images.githubusercontent.com/112887807/192298576-cdda9bf3-598e-4e99-b1e4-ad11e4ee1815.png">
 
 <img width="530" alt="image" src="https://user-images.githubusercontent.com/112887807/192298260-ebbf9c2c-5ab7-49a5-a0ef-5830cfdae0fe.png">
 
