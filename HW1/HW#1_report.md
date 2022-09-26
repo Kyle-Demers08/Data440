@@ -83,6 +83,7 @@ Here are the results of running the function, passing the uri as as the paramete
 
 *Every report must list the references that you consulted while completing the assignment. If you consulted a webpage, you must include the URL.*
 
-* Basic Syntax | Markdown Guide, <https://www.markdownguide.org/basic-syntax/#images-1>
-* Teaching-web-science-syllabus, <https://github.com/anwala/teaching-web-science/blob/main/fall-2022/syllabus.md#summary-schedule>
-* Class Piazza, <https://piazza.com/class/l3k72ehiq8z40r/post/8>
+* How to Change or Set User Agent, <https://phoenixnap.com/kb/curl-user-agent>
+* Extract all the urls from the webpage using python, (https://www.geeksforgeeks.org/extract-all-the-urls-from-the-webpage-using-python/)
+* Stack Overflow, <=https://stackoverflow.com/questions/36070821/how-to-get-redirect-url-using-python-requests#:~:text=To%20get%20the%20resultant%20URL,url%20.&text=dQw4w9WgXcQ%26feature%3Dyoutu.be-,r.,you%20were%20only%20redirected%20once.>
+* Stack Overflow, <https://stackoverflow.com/questions/56362740/how-to-learn-content-type-of-pdf-when-html-url-generates-download>
