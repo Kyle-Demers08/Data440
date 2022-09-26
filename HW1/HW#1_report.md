@@ -56,8 +56,23 @@ Your program must do the following:
 - for all links that reference a PDF file, print the original URI (found in the parent HTML page), the final URI (after any redirects), and the number of bytes in the PDF file. (Hint: Content-Length HTTP response header)
 
 ## Answer
+First I imported the necessary modules being beautiful soup and requests.
 
-Here are the results of running the function, passing the url as as the argument.
+<img width="539" alt="image" src="https://user-images.githubusercontent.com/112887807/192298073-0e433767-d759-403d-a5b2-b56d330df690.png">
+
+Then I looked at all the links from the first webpage and made sure I was getting the 8 predetermined pdfs. 
+
+I had to determine which ones were PDFs so I played around with the code until this worked.
+
+<img width="245" alt="image" src="https://user-images.githubusercontent.com/112887807/192298576-cdda9bf3-598e-4e99-b1e4-ad11e4ee1815.png">
+
+<img width="530" alt="image" src="https://user-images.githubusercontent.com/112887807/192298260-ebbf9c2c-5ab7-49a5-a0ef-5830cfdae0fe.png">
+
+From there I had to put it all together in a function. This is the function I ended up using. The function takes the uri as a parameter.
+
+<img width="535" alt="image" src="https://user-images.githubusercontent.com/112887807/192297561-d721c7a5-3680-40b6-9355-f740e0ddb8d4.png">
+
+Here are the results of running the function, passing the uri as as the parameter.
 
 <img width="749" alt="image" src="https://user-images.githubusercontent.com/112887807/192171265-4289784a-6ad3-4c27-a4dd-85f3610ca0d0.png">
 
