@@ -68,8 +68,6 @@ I had to determine which ones were PDFs so I played around with the code until t
 
 <img width="245" alt="image" src="https://user-images.githubusercontent.com/112887807/192298576-cdda9bf3-598e-4e99-b1e4-ad11e4ee1815.png">
 
-<img width="530" alt="image" src="https://user-images.githubusercontent.com/112887807/192298260-ebbf9c2c-5ab7-49a5-a0ef-5830cfdae0fe.png">
-
 From there I had to put it all together in a function. This is the function I ended up using. The function takes the uri as a parameter.
 
 <img width="535" alt="image" src="https://user-images.githubusercontent.com/112887807/192297561-d721c7a5-3680-40b6-9355-f740e0ddb8d4.png">
