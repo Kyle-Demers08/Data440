@@ -22,7 +22,7 @@ b) In a single curl command, issue a HEAD HTTP request for the URI, https://t.co
 
 ## Answer
 
-a) I first ran this command to find my user agent using the website
+a) I first visited this website to find my user agent.
 
 <img width="740" alt="image" src="https://user-images.githubusercontent.com/112887807/192108180-fe9bc9c9-3433-4f07-b527-cd29dc405c16.png">
 
