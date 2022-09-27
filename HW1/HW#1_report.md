@@ -15,21 +15,21 @@ Draw the resulting directed graph (either sketch on paper or use another tool) s
  - B) SCC
  - C) SCC
  - D) OUT
- - E) TENDRIL (IN)
- - F) TENDRIL (OUT)
+ - E) Disconnected
+ - F) Disconnected
  - G) SCC
  - H) OUT
- - I) TUBE
- - K) TENDRIL (OUT)
- - L) TUBE (IN)
+ - I) Tendril (can reach OUT)
+ - K) Tendril (is reachable from IN)
+ - L) Tendril (can reach OUT)
  - M) IN
- - N) TUBE (IN)
+ - N) TUBE (connects the In link "N" to the out link "D")
  - O) IN
  - P) IN
 
 ## Discussion 
 
-I found a website that displays directed graphs. Unfortunately the tendrils and tubes get a little sloppy as there is no way to shape the lines differently. 
+I found a website that displays directed graphs. The wording is a bit tricky for me with tendrils reaching OUT and being reachable from IN. I see those links as being IN and it feels weird to say reach out. 
 
 # Q2
 
