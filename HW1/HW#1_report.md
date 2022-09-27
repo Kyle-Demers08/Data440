@@ -126,3 +126,4 @@ The hardest part of this was suprisingly finding pages with PDFs. I had to do so
 * Stack Overflow, <=https://stackoverflow.com/questions/36070821/how-to-get-redirect-url-using-python-requests#:~:text=To%20get%20the%20resultant%20URL,url%20.&text=dQw4w9WgXcQ%26feature%3Dyoutu.be-,r.,you%20were%20only%20redirected%20once.>
 * Stack Overflow, <https://stackoverflow.com/questions/56362740/how-to-learn-content-type-of-pdf-when-html-url-generates-download>
 * Create Graph Online, <https://graphonline.ru/en/>
+ 
