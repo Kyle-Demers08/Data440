@@ -9,7 +9,7 @@ Draw the resulting directed graph (either sketch on paper or use another tool) s
 
 ## Answer
 
-<img width="625" alt="image" src="https://user-images.githubusercontent.com/112887807/191019192-12c3cb47-8bb0-41ec-95e1-52ea96b27576.png">
+<img width="556" alt="image" src="https://user-images.githubusercontent.com/112887807/192409027-b3a13433-5acb-4b5c-b94a-e709c70e61f0.png">
 
  - A) SCC
  - B) SCC
