@@ -1,138 +1,127 @@
-Homework 2 - Archiving the Web
-Due: Tuesday, October 11, 2022 by 11:59pm *This assignment is going to take time. Read through the entire assignment before starting. Do not wait until the last minute to start working on it.
+# HW#1 - Web Science Intro
+### Kyle Demers
+### Data 440, Fall 2022
+### 9/27/2022
 
-Important: Q1 requires obtaining a Twitter Developer Account (see Twitter Setup). This may take a day or two, so if you haven't already done this, get started today.
+# Q1
 
-Assignment
-Write a report that contains the answers and explains how you arrived at the answers to the following questions. Include any interesting findings that you discover from your analysis.
+Draw the resulting directed graph (either sketch on paper or use another tool) showing how the nodes are connected to each other and include an image in your report.
 
-Note about Programming Tasks: For several of the programming tasks this semester, you will be asked to write code to operate on 100s or 1000s of data elements. If you have not done this type of development before, I strongly encourage you to start small and work your way up. Especially when you are using new tools or APIs, start on a small test dataset to make sure you understand how to use the tool and that your processing scripts are working before ramping up to the full set. This will save you an enormous amount of time.
+A --> B
+B --> C
+C --> D
+C --> A
+C --> G
+E --> F
+G --> C
+G --> H
+I --> H
+I --> K
+L --> D
+M --> A
+M --> N
+N --> D
+O --> A
+P --> G
 
-Write a report that contains the answers and explains how you arrived at the answers to the following questions. Before starting, review the HW report guidelines. Name your report for this assignment hw2_report with the proper file extension.
+## Answer
 
-(Report (2 points)
+<img width="556" alt="image" src="https://user-images.githubusercontent.com/112887807/192409027-b3a13433-5acb-4b5c-b94a-e709c70e61f0.png">
 
-Q1. Collect URIs from Tweets (2 points)
-Extract 1000 unique links from tweets in Twitter.
+ - A) SCC
+ - B) SCC
+ - C) SCC
+ - D) OUT
+ - E) Disconnected
+ - F) Disconnected
+ - G) SCC
+ - H) OUT
+ - I) Tendril (can reach OUT)
+ - K) Tendril (is reachable from IN)
+ - L) Tendril (can reach OUT)
+ - M) IN
+ - N) TUBE (connects the In link "N" to the out link "D")
+ - O) IN
+ - P) IN
 
-Setup for this task:
+## Discussion 
 
-Obtain a Twitter Developer Account (see Twitter Setup)
-You may use get_tweets.py and process_tweets.py). Modify them as needed.
-Main steps:
+I found a website that displays directed graphs. The wording is a bit tricky for me with tendrils reaching OUT and being reachable from IN. I see those links as being IN and it feels weird to say reach out. 
 
-Write a Python program that collects English-language tweets that contain links. See Collecting Tweets.
-Write a Python program that extracts the links shared in tweets. See Extracting Links from Tweets.
-Resolve all URIs to their final target URI (i.e., the one that responds with a 200). See Resolve URIs to Final Target URI.
-Save only unique final URIs (no repeats). See Save Only Unique URIs.
-if after this step, you don't have 1000 unique URIs, go back and gather more until you are able to get at least 1000 unique URIs
-Save this collection of 1000 unique links in a file and upload it to your repo in GitHub -- we'll use it again in HW3
-Collecting Tweets
-You'll likely need to collect more than 1000 tweets initially to get 1000 unique links.
+# Q2
 
-There are rate limits (number of API calls per amount of time) associated with different types of API calls to Twitter, but twarc will handle the rate limits for you. Meaning, if you ask twarc to deliver more tweets than it is allowed per time, it will pause until it's able to complete your request.
+a) First, load this URI https://httpbin.org/user-agent directly in your browser and take a screenshot. The resulting webpage should show the "User-Agent" HTTP request header that your web browser sends to the web server.
 
-Feel free to use multiple keywords to extract tweet. For example, you could collect 250 tweets each about 5 different keywords. Use keywords (e.g., 'covid', 'olympics', 'vaccine') and not "stopwords" (e.g., test, the, tweet).
+b) In a single curl command, issue a HEAD HTTP request for the URI, https://t.co/EYgdZgrm2W. Show the HTTP response headers, follow any redirects, and change the User-Agent HTTP request field to "DATA 440." Show the command you issued and the result of your execution on the command line. (Either take a screenshot of your terminal or copy/paste into a code segment.)
 
-Extracting Links from Tweets
-Links in tweets are stored in the ['entities']['urls'] part of the tweet dictionary structure. This has several components:
+## Answer
 
-'url' - The shortened URI (usually starting with https://t.co/)
-'expanded_url' - The actual URI that was input by the user (i.e., not shortened)
-'display_url' - The text of the URI that is displayed in the tweet (counted as part of the 280-character limit in the tweet)
-Since we want the actual URIs, you want to extract the 'expanded_url' version of the link. There's an example in process_tweets.py.
+a) I first visited this website to find my user agent.
 
-We will be analyzing the content in these links in a later assignment, so you want links that will likely contain some text.
+<img width="740" alt="image" src="https://user-images.githubusercontent.com/112887807/192108180-fe9bc9c9-3433-4f07-b527-cd29dc405c16.png">
 
-Exclude links from the Twitter domain (twitter.com) -- these will likely be references to other tweets or images
-Exclude links that will likely point to a video/audio-only page (youtube.com, twitch.com, soundcloud.com, etc.)
-If you find a link you consider to be inappropriate for any reason, just discard it and get some more links.
+b) I followed the redirects using this command. Note the "301" which implies that the address has been permanently moved to "Location"
 
-Resolve URIs to Final Target URI
-Many of the links that you collect will be shortened links (dlvr.it, bit.ly, buff.ly, etc.). We want the final URI that resolves to an HTTP 200 (not a redirection). For example:
+<img width="880" alt="image" src="https://user-images.githubusercontent.com/112887807/192108988-b4da7946-0780-4d58-aa75-dc27b39a23a2.png">
 
-$ curl -IL --silent http://bit.ly/wc-wail | egrep -i "(HTTP/1.1|HTTP/2|^location:)"
-HTTP/1.1 301 Moved Permanently
-Location: http://ws-dl.blogspot.com/2013/07/2013-07-10-warcreate-and-wail-warc.html
-HTTP/1.1 301 Moved Permanently
-Location: https://ws-dl.blogspot.com/2013/07/2013-07-10-warcreate-and-wail-warc.html
-HTTP/2 200
-We want https://ws-dl.blogspot.com/2013/07/2013-07-10-warcreate-and-wail-warc.html, not http://bit.ly/wc-wail.
+after following the redirect, I applied the head command.
 
-You can either write a Unix shell script that uses curl to do this, or write a Python program using the requests library. If you use the Python requests library, make sure to include the timeout parameter to your call to get().
+<img width="947" alt="image" src="https://user-images.githubusercontent.com/112887807/192108935-516d5ced-0384-448b-9f02-17740a6a9595.png">
 
-Example: requests.get(url, timeout=5) # 5 second timeout
-Save Only Unique URIs
-You can write Python code for this part, but I'd recommend using the Unix tools sort and uniq. Back to Basics: Sort and Uniq is a nice introduction to this.
+I went back to the first URI to test ways to change my user agent
 
-Q2. Get TimeMaps for Each URI (2 points)
-Obtain the TimeMaps for each of the unique URIs from Q1 using the ODU Memento Aggregator, MemGator.
+<img width="473" alt="image" src="https://user-images.githubusercontent.com/112887807/192109163-5c087751-f47f-45ed-b9ce-d67912360284.png">
 
-You may use https://memgator.cs.odu.edu for limited testing, but do not request all of your 1000 TimeMaps from memgator.cs.odu.edu.
+I added the change user agent command and then revisited the 2nd website under that new user agent.
 
-There are two options for running MemGator locally:
+<img width="952" alt="image" src="https://user-images.githubusercontent.com/112887807/192110928-52971336-b7f5-4293-ad6f-cac164930a01.png">
 
-Install a stand-alone version of MemGator on your own machine, see https://github.com/oduwsdl/MemGator/releases
-This was described in How to Install MemGator
-Install Docker Desktop and run MemGator as a Docker Container, see notes at https://github.com/oduwsdl/MemGator/blob/master/README.md
-Important: Obtaining TimeMaps requires contacting several different web archives for each URI-R. This process will take time. Look at the MemGator options and figure out how to process the output before running the entire process. You might want to get JSON output, or you might want to limit to the top k archives (especially if there's one that's currently taking a long time to return).
+## Discussion
 
-Note that if there are no mementos for a URI-R, MemGator will return nothing. Don't be surprised if many of your URI-Rs return 0 mementos. Remember the "How Much of the Web is Archived" slides -- there are lots of things on the web that are not archived. If you want to do a sanity check on a few, you can manually use the Wayback Machine and see what you get from the Internet Archive. (Remember though that MemGator is going to query several web archives, not just Internet Archive.)
+This was pretty interesting to connect things we've learned/talked about in class to what is done at home. It was nice being able to understand all the errors and be able to read most of what the computer was telling me. 
 
-If you uncover TimeMaps that are very large (e.g., for popular sites like https://www.cnn.com/) and swamp your filesystem, you have two options:
+# Q3
 
-Manually remove those URI-Rs from your dataset (but note this in your report), or
-Compress each TimeMap file individually (using pipe to gzip in the same command when downloading or after the download is completed). These compressed files can be used for further analysis by decompressing on the fly using commands like zcat or zless (or using gzip libraries in Python).
-Finally, upload the TimeMaps to your GitHub repo -- you'll also use these for Q3. Put them in a separate folder, not the same folder as your report.
+Write a Python program to find links to PDFs in a webpage.
 
-To upload/commit a large number of files to GitHub, use the command line.
-Q3. Analyze Mementos Per URI-R. (2 points)
-Use the TimeMaps you saved in Q2 to analyze how well the URIs you collected in Q1 are archived. Create a table showing how many URI-Rs have certain number of mementos. For example
+Your program must do the following:
 
-Mementos	URI-Rs
-0	750
-1	100
-7	50
-12	25
-19	25
-24	20
-30	27
-57	3
-If you are using LaTeX, you should create a LaTeX table -- don't submit a spreadsheet or image of a table created in something else. If you are using Markdown, you can view the source of this file for an example of how to generate a table.
+- take the URI of a webpage as a command-line argument
+- extract all the links from the page
+- for each link, request the URI and use the Content-Type HTTP response header to determine if the link references a PDF file
+- for all links that reference a PDF file, print the original URI (found in the parent HTML page), the final URI (after any redirects), and the number of bytes in the PDF file. (Hint: Content-Length HTTP response header)
 
-If you will end up with a very large table of memento counts, you can bin the number of mementos. Just make sure that the bin sizes are reasonable and that you specify how many had 0 mementos individually. The target is to have no more than 15-20 rows so that your table can fit on a single page. For example
+## Answer
+First I imported the necessary modules being beautiful soup and requests.
 
-Mementos	URI-Rs
-0	750
-1-10	150
-11-20	50
-21-30	47
-57	3
-Q: What URI-Rs had the most mementos? Did that surprise you?
+<img width="539" alt="image" src="https://user-images.githubusercontent.com/112887807/192298073-0e433767-d759-403d-a5b2-b56d330df690.png">
 
-Q4. Analyze Datetimes of Mementos. (2 points)
-For each of the URI-Rs from Q3 that had > 0 mementos, create a scatterplot with the age of each URI-R (today - earliest memento datetime) on the x-axis and number of mementos for that URI-R on the y-axis. Some Info Vis terminology: for this graph, the item is the URI-R and the attributes are the estimated age of the URI-R (channel is horizontal position) and the number of mementos for that URI-R (channel is vertical position).
+Then I looked at all the links from the first webpage and made sure I was getting the 8 predetermined pdfs. 
 
-This scatterplot should be created using either R or Python, not Excel.
+<img width="527" alt="image" src="https://user-images.githubusercontent.com/112887807/192301462-3ad3c297-1bb3-478c-a831-2f391794b5c3.png">
 
-Q: What can you say about the relationship between the age of a URI-R and the number of its mementos?
+I had to determine which ones were PDFs so I played around with the code until this worked.
 
-Q: What URI-R had the oldest memento? Did that surprise you?
+<img width="245" alt="image" src="https://user-images.githubusercontent.com/112887807/192298576-cdda9bf3-598e-4e99-b1e4-ad11e4ee1815.png">
 
-Q: How many URI-Rs had an age of < 1 week, meaning that their first memento was captured the same week you collected the data?
+From there I had to put it all together in a function. This is the function I ended up using. The function takes the uri as a parameter.
 
-ReplayWeb.page provides a web archive replay system as a single web site (which also works offline), allowing users to view web archives from anywhere, including local computer or even Google Drive. See the User guide for more info.
-Once the WARC file has loaded, click on the "Pages" tab. Take a screenshot that includes the list of pages and the browser address bar (showing replayweb.page/?source=file%3A%2F%2F..., which indicates that the WARC file is being loaded from your local computer).
+<img width="535" alt="image" src="https://user-images.githubusercontent.com/112887807/192297561-d721c7a5-3680-40b6-9355-f740e0ddb8d4.png">
 
-Then click on the "URLs" tab and choose "All URLs" from the dropdown menu.
+Here are the results of running the function, passing the uri as as the parameter.
 
-Q: How many URLs were archived in the WARC file? How does this compare to the number of Pages?
-
-Resources:
-
-< https://stackoverflow.com/questions/2244270/get-a-try-statement-to-loop-around-until-correct-value-obtained >
-< https://stackoverflow.com/questions/28377421/why-do-i-receive-a-timeout-error-from-pythons-requests-module >
-< https://www.w3schools.com/python/ref_requests_get.asp >
+<img width="749" alt="image" src="https://user-images.githubusercontent.com/112887807/192171265-4289784a-6ad3-4c27-a4dd-85f3610ca0d0.png">
 
 
+## Discussion
 
+The hardest part of this was suprisingly finding pages with PDFs. I had to do some creative problem solving at some points in my process, and really work each piece little by little. I think documenting all of my steps made it pretty easy to follow. 
+
+# References
+
+*Every report must list the references that you consulted while completing the assignment. If you consulted a webpage, you must include the URL.*
+
+* W3 School, https://www.w3schools.com/python/ref_requests_get.asp
+* Stack Overflow, <https://stackoverflow.com/questions/28377421/why-do-i-receive-a-timeout-error-from-pythons-requests-module>
+* Stack Overflow, <https://stackoverflow.com/questions/2244270/get-a-try-statement-to-loop-around-until-correct-value-obtained>
+ 
