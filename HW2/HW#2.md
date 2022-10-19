@@ -19,8 +19,8 @@ Save this collection of 1000 unique links in a file and upload it to your repo i
 
 ## Answer
 
-[python Script](https://github.com/Kyle-Demers08/Data440/blob/main/HW2/process_errors.py)
-[1000 Url's](https://github.com/Kyle-Demers08/Data440/blob/main/HW2/tweets_processed.txt)
+Python Script: [python Script](https://github.com/Kyle-Demers08/Data440/blob/main/HW2/process_errors.py)
+Text file of URL's: [1000 Url's](https://github.com/Kyle-Demers08/Data440/blob/main/HW2/tweets_processed.txt)
 
 ## Discussion 
 
