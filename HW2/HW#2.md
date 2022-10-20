@@ -90,7 +90,9 @@ For each of the URI-Rs from Q3 that had > 0 mementos, create a scatterplot with 
 
 ## Answer
 
-paste picture
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/112887807/196829969-d248c697-86cf-4c60-b12e-9e368b665d75.png">
+
+ipynb script for answering questions and creating graph: [Script](https://github.com/Kyle-Demers08/Data440/blob/main/HW2/plot.ipynb)
 
 ### Q: What can you say about the relationship between the age of a URI-R and the number of its mementos?
 ### Answer:
