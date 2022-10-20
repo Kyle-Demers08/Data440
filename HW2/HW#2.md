@@ -6,7 +6,8 @@
 # Q1
 
 Q1. Collect URIs from Tweets (2 points)
-Extract 1000 unique links from tweets in Twitte
+
+Extract 1000 unique links from tweets in Twitter
 
 Main steps:
 
