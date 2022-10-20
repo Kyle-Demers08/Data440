@@ -1,0 +1,99 @@
+
+{
+  "original_uri": "https://neurosciencenews.com/dogs-smell-stress-21601",
+  "self": "http://localhost:1208/timemap/json/https://neurosciencenews.com/dogs-smell-stress-21601",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2022-10-08T19:16:31Z",
+        "uri": "https://web.archive.org/web/20221008191631/https://neurosciencenews.com/dogs-smell-stress-21601/"
+      },
+      {
+        "datetime": "2022-10-08T23:48:52Z",
+        "uri": "https://web.archive.org/web/20221008234852/https://neurosciencenews.com/dogs-smell-stress-21601/"
+      },
+      {
+        "datetime": "2022-10-10T12:48:19Z",
+        "uri": "https://web.archive.org/web/20221010124819/https://neurosciencenews.com/dogs-smell-stress-21601/"
+      },
+      {
+        "datetime": "2022-10-11T13:11:18Z",
+        "uri": "https://web.archive.org/web/20221011131118/http://neurosciencenews.com/dogs-smell-stress-21601/"
+      }
+    ],
+    "first": {
+      "datetime": "2022-10-08T19:16:31Z",
+      "uri": "https://web.archive.org/web/20221008191631/https://neurosciencenews.com/dogs-smell-stress-21601/"
+    },
+    "last": {
+      "datetime": "2022-10-11T13:11:18Z",
+      "uri": "https://web.archive.org/web/20221011131118/http://neurosciencenews.com/dogs-smell-stress-21601/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://neurosciencenews.com/dogs-smell-stress-21601",
+    "json_format": "http://localhost:1208/timemap/json/https://neurosciencenews.com/dogs-smell-stress-21601",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://neurosciencenews.com/dogs-smell-stress-21601"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://neurosciencenews.com/dogs-smell-stress-21601"
+}
+
+{
+  "original_uri": "https://alexandernwala.com/",
+  "self": "http://localhost:1208/timemap/json/https://alexandernwala.com/",
+  "mementos": {
+    "list": [
+      {
+        "datetime": "2021-07-25T05:52:37Z",
+        "uri": "https://web.archive.org/web/20210725055237/https://alexandernwala.com/"
+      },
+      {
+        "datetime": "2021-09-20T13:32:44Z",
+        "uri": "https://web.archive.org/web/20210920133244/https://alexandernwala.com/"
+      },
+      {
+        "datetime": "2021-10-16T08:05:31Z",
+        "uri": "https://web.archive.org/web/20211016080531/https://alexandernwala.com/"
+      },
+      {
+        "datetime": "2021-11-23T03:45:56Z",
+        "uri": "https://web.archive.org/web/20211123034556/https://alexandernwala.com/"
+      },
+      {
+        "datetime": "2021-11-25T20:36:26Z",
+        "uri": "https://web.archive.org/web/20211125203626/http://alexandernwala.com/"
+      },
+      {
+        "datetime": "2021-12-06T11:40:12Z",
+        "uri": "https://web.archive.org/web/20211206114012/https://alexandernwala.com/"
+      },
+      {
+        "datetime": "2022-01-20T07:21:25Z",
+        "uri": "https://web.archive.org/web/20220120072125/https://alexandernwala.com/"
+      },
+      {
+        "datetime": "2022-07-30T18:48:40Z",
+        "uri": "https://web.archive.org/web/20220730184840/https://alexandernwala.com/"
+      },
+      {
+        "datetime": "2022-07-30T18:49:01Z",
+        "uri": "https://web.archive.org/web/20220730184901/https://alexandernwala.com/"
+      }
+    ],
+    "first": {
+      "datetime": "2021-07-25T05:52:37Z",
+      "uri": "https://web.archive.org/web/20210725055237/https://alexandernwala.com/"
+    },
+    "last": {
+      "datetime": "2022-07-30T18:49:01Z",
+      "uri": "https://web.archive.org/web/20220730184901/https://alexandernwala.com/"
+    }
+  },
+  "timemap_uri": {
+    "link_format": "http://localhost:1208/timemap/link/https://alexandernwala.com/",
+    "json_format": "http://localhost:1208/timemap/json/https://alexandernwala.com/",
+    "cdxj_format": "http://localhost:1208/timemap/cdxj/https://alexandernwala.com/"
+  },
+  "timegate_uri": "http://localhost:1208/timegate/https://alexandernwala.com/"
+}
+
