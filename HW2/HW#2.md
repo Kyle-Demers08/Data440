@@ -109,7 +109,7 @@ The oldest memento is from a news source from new jersey, nj.com. This doesn't s
 
 ## Discussion
 
-For the graph I had to use log scale to be able to see the amount of URI-Rs as there were some extreme numbers over the 100,000 mark. It is cool to see the relationship truly develop and be visualized in the plot. 
+For the graph I had to use log scale to be able to see the amount of URI-Rs as there were some extreme numbers over the 100,000 mark. It is cool to see the relationship truly develop and be visualized in the plot.  
 
 # References
 
