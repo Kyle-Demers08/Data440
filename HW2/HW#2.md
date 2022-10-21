@@ -36,7 +36,7 @@ You may use https://memgator.cs.odu.edu for limited testing, but do not request 
 
 ## Answer
 
-python script: [get timemaps script](https://github.com/Kyle-Demers08/Data440/blob/ok/Get_TimeMaps.py)
+python script: [get timemaps script](https://github.com/Kyle-Demers08/Data440/blob/main/HW2/timemaps2.py)
 
 timemaps jsonl: [timemaps](https://github.com/Kyle-Demers08/Data440/blob/main/HW2/timemaps.zip)
 
