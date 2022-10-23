@@ -118,4 +118,4 @@ Since I was using a one word query, to get the TF-IDF, all I needed to do was mu
 * geeks for geeks, <https://www.geeksforgeeks.org/python-append-to-a-file/?id=discuss>
 * Stack Overflow, <https://stackoverflow.com/questions/59685819/count-the-number-of-characters-words-and-lines-in-powershell>
 * Window Tools, <http://winteltools.com/findstr/>
-
+ 
