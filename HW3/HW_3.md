@@ -46,7 +46,7 @@ For this question I chose to run a query on the term "soccer". This should retur
 
 The query I ran was using the findstr command in windows powershell:
 
-[Find Strings Picture](https://github.com/Kyle-Demers08/Data440/blob/main/HW3/findstr.png)
+[Find Strings](https://github.com/Kyle-Demers08/Data440/blob/main/HW3/findstr.png)
 Text Files containing the string "Soccer" and their Frequencies in parenthesis:
  - 691 (1)
  - 734 (3)
