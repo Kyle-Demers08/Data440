@@ -46,7 +46,7 @@ For this question I chose to run a query on the term "soccer". This should retur
 
 The query I ran was using the findstr command in windows powershell:
 
-![image.png]https://github.com/Kyle-Demers08/Data440/blob/main/HW3/findstr.png)
+[Find Strings Picture](https://github.com/Kyle-Demers08/Data440/blob/main/HW3/findstr.png)
 Text Files containing the string "Soccer" and their Frequencies in parenthesis:
  - 691 (1)
  - 734 (3)
@@ -80,13 +80,13 @@ The 10 I am picking from this list are the following: 985, 93, 86, 844, 78, 772,
 
 When searching soccer on google; 1,770,000,000 results were returned out of googles 35 billion corpus size
 
-![image.png]([attachment:4e43784b-87fe-4f1d-b862-9dfeb0e83a5a.png](https://github.com/Kyle-Demers08/Data440/blob/main/HW3/soccer.png))
+[Google Search]([attachment:4e43784b-87fe-4f1d-b862-9dfeb0e83a5a.png](https://github.com/Kyle-Demers08/Data440/blob/main/HW3/soccer.png))
  
 The IDF in this case is log<sub>2</sub>(35B/1.77B) which equals 4.303
 
 To get the TF of the URI we need the wordcount so I used the cat powershell command to measure word count:
 
-![image.png]([attachment:a1690f79-2828-4929-91de-26742a792ada.png](https://github.com/Kyle-Demers08/Data440/blob/main/HW3/wordcount.png))
+[Using Cat]([attachment:a1690f79-2828-4929-91de-26742a792ada.png](https://github.com/Kyle-Demers08/Data440/blob/main/HW3/wordcount.png))
 
 
 | TF-IDF |  TF  |  IDF  |   URI   |
