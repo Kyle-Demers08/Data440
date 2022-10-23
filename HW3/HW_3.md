@@ -111,7 +111,7 @@ To calculate the IDF, I did a google search of the term "soccer". this resulted 
 Since I was using a one word query, to get the TF-IDF, all I needed to do was multiply the one TF and the one IDF. 
 
 ---
-
+ 
 # References
 
 * Boilerpy3, <https://pypi.org/project/boilerpy3/>
