@@ -20,11 +20,11 @@ Keep both files for each URI (i.e., raw HTML and processed), and upload both set
 
 ## Answer:
 
-[Get text](https://github.com/Kyle-Demers08/Data440/blob/main/HW2/process_errors.py)
+Python script to get text: [Get text](https://github.com/Kyle-Demers08/Data440/blob/main/HW2/process_errors.py)
 
-[Text file of URL's](https://github.com/Kyle-Demers08/Data440/blob/main/HW2/tweets_processed.txt)
+The URI's I am using: [Text file of URI's](https://github.com/Kyle-Demers08/Data440/blob/main/HW2/tweets_processed.txt)
 
-[Folder Containing text for each url](link)
+Raw text files: [Zip Folder Containing text for each url](link)
 
 #### Q: How many of your 1000 URIs produced useful text? If that number was less than 1000, did that surprise you?
 
