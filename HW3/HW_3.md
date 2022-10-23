@@ -86,7 +86,7 @@ The IDF in this case is log<sub>2</sub>(35B/1.77B) which equals 4.303
 
 To get the TF of the URI we need the wordcount so I used the cat powershell command to measure word count:
 
-[Using Cat](https://github.com/Kyle-Demers08/Data440/blob/main/HW3/wordcount.png))
+[Using Cat](https://github.com/Kyle-Demers08/Data440/blob/main/HW3/wordcount.png)
 
 
 | TF-IDF |  TF  |  IDF  |   URI   |
