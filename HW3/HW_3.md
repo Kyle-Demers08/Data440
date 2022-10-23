@@ -5,7 +5,7 @@
 
 --- 
 
-# Q1. Data Collection (4 points)
+# Q1. Data Collection 
 
 Download the HTML content of the 1000 unique URIs you gathered in HW2 and strip out HTML tags (called "boilerplate") so that you are left with the main text content of each webpage.
 
