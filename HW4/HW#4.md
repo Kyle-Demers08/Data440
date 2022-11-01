@@ -13,7 +13,7 @@ Determine if the friendship paradox holds for a user's Facebook account. (This u
 
 acnwala_friends_friends_count.csv (provided on Piazza) contains a user's friends' names and number of friends they each have.
 
-(acnwala friend csv)[https://github.com/Kyle-Demers08/Data440/blob/main/HW4/acnwala_friends_friends_count.csv]
+[acnwala friend csv](https://github.com/Kyle-Demers08/Data440/blob/main/HW4/acnwala_friends_friends_count.csv)
 
 Q: What is the mean, standard deviation, and median of the number of friends that the user's friends have?
 
