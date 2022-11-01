@@ -15,7 +15,26 @@ acnwala_friends_friends_count.csv (provided on Piazza) contains a user's friends
 
 [acnwala friend csv](https://github.com/Kyle-Demers08/Data440/blob/main/HW4/acnwala_friends_friends_count.csv)
 
-Q: What is the mean, standard deviation, and median of the number of friends that the user's friends have?
+### Q: What is the mean, standard deviation, and median of the number of friends that the user's friends have?
+
+### Answer:
+
+```python
+print('the mean followers of your friends followers: ' + str("{:.2f}".format(np.mean(df['counts']))))
+```
+
+The mean followers of anwala is 542.67
+
+```python
+print('the standard deviation of your friends followers: ' + str("{:.2f}".format(np.std(df['counts']))))
+```
+The standard deviation of anwala's followers is 536.67
+
+
+```python
+print('the median of your friends followers: ' + str("{:.2f}".format(np.median(df['counts']))))```
+
+the median of anwala's followers is 396
 
 Create a graph of the number of friends (y-axis) and the friends themselves (x-axis), sorted by number of friends. The friends don't need to be labeled on the x-axis: 1, 2, 3,..., n should be sufficient. Include the user in the graph in the appropriate sorted position (count the number of their friends) and label as U.
 
