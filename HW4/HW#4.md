@@ -1,7 +1,6 @@
 # Homework 4 - Exploring Social Networks
 # Kyle Demers
 ## 11/3/2022
-Due: Thursday, November 3, 2022 by 11:59pm
 
 Assignment
 You will investigate the friendship paradox on Facebook and Twitter, which says "most people have fewer friends than their friends have, on average."
@@ -110,7 +109,8 @@ When looking at the mean of this users followers, they average 1429.94 which is 
 ### Discussion
 
 It is interesting to see the difference in average metrics. The higher end of the spectrum with the most followers has no significant impact on the median, while it plays a huge role in manipulating the mean. The friendship paradox seems like it would almost always hold true for most users. 
-You may use Twarc2 in Python to access the Twitter API to find a user's followers. The code to access the Twitter API should be similar to get_tweets.py, you may use that to start.
+
+---
 
 Link to ipynb where many calculations and graphs were done:
 [link](https://github.com/Kyle-Demers08/Data440/blob/main/HW4/Untitled%20(2).ipynb)
