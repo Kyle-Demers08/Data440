@@ -112,10 +112,11 @@ When looking at the mean of this users followers, they average 1429.94 which is 
 It is interesting to see the difference in average metrics. The higher end of the spectrum with the most followers has no significant impact on the median, while it plays a huge role in manipulating the mean. The friendship paradox seems like it would almost always hold true for most users. 
 You may use Twarc2 in Python to access the Twitter API to find a user's followers. The code to access the Twitter API should be similar to get_tweets.py, you may use that to start.
 
-Other helpful references:
+Link to ipynb where many calculations and graphs were done:
+[link](https://github.com/Kyle-Demers08/Data440/blob/main/HW4/Untitled%20(2).ipynb)
 
-Labs for the Standard Product Track in Python - look at the section headings to find the appropriate part to read
-Twitter's User object model - explains the data structure returned from the Twitter API
-process-tweets.py - shows examples of accessing different parts of the data structure returned from the Twitter API
-Submission
-Make sure that you have committed and pushed your local repo to your private GitHub repo (inside the hw4 folder). Your repo should include your report, images, code, and data you developed to answer the questions. Include "Ready to grade @anwala" in your final commit message.
+Resources:
+programiz, <https://www.programiz.com/python-programming/methods/list/sort>
+github; using the twitter api, <https://github.com/twitterdev/getting-started-with-the-twitter-api-v2-for-academic-research/blob/main/modules/6b-labs-code-standard-python.md>
+github; twitters user object model, <https://developer.twitter.com/en/docs/twitter-api/data-dictionary/object-model/user>
+
