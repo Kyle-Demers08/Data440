@@ -1,12 +1,10 @@
 # Homework 4 - Exploring Social Networks
 # Kyle Demers
-## 11/1/2022
+## 11/3/2022
 Due: Thursday, November 3, 2022 by 11:59pm
 
 Assignment
 You will investigate the friendship paradox on Facebook and Twitter, which says "most people have fewer friends than their friends have, on average."
-
-(Report (2 points)
 
 ## Q1. Friendship Paradox on Facebook (4 points)
 Determine if the friendship paradox holds for a user's Facebook account. (This used to be more interesting when you could more easily download your friend's friends list from Facebook. Facebook now requires each friend to approve this operation, effectively making it impossible.)
@@ -37,7 +35,7 @@ print('the median of your friends followers: ' + str("{:.2f}".format(np.median(d
 
 the median of anwala's followers is 396
 
----
+--
 
 ### Task 
 Create a graph of the number of friends (y-axis) and the friends themselves (x-axis), sorted by number of friends. The friends don't need to be labeled on the x-axis: 1, 2, 3,..., n should be sufficient. Include the user in the graph in the appropriate sorted position (count the number of their friends) and label as U.
@@ -64,9 +62,10 @@ plt.show()
 
 The friendship paradox holds for this user. When looking at the average, of this users friends, they have more friends than this user does. This can be seen in both the graph and the results of the code written above.
 
+### Discussion
 ---
 
-### Q2. Friendship Paradox on Twitter 
+## Q2. Friendship Paradox on Twitter 
 Determine if the friendship paradox holds for your Twitter account. Since Twitter is a directed graph, use followers as the value you measure (i.e., "do your followers have more followers than you?").
 
 If you have less than 50 followers on Twitter, then you can do the analysis for another Twitter account (e.g., my account is acnwala) and substitute the user you pick for you in the questions below.
