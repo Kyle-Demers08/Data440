@@ -33,12 +33,33 @@ The standard deviation of anwala's followers is 536.67
 
 ```python
 print('the median of your friends followers: ' + str("{:.2f}".format(np.median(df['counts']))))``` 
+```
 
 the median of anwala's followers is 396
 
 Create a graph of the number of friends (y-axis) and the friends themselves (x-axis), sorted by number of friends. The friends don't need to be labeled on the x-axis: 1, 2, 3,..., n should be sufficient. Include the user in the graph in the appropriate sorted position (count the number of their friends) and label as U.
 
+```python
+fig, ax = plt.subplots(figsize = (9,6 ))
+ax.scatter(x,df['counts'], alpha=0.5, edgecolors="k") #plot with .5 transparency
+# label axes
+ax.set_ylabel("Followers")
+ax.set_xlabel('Person (sorted high to low)')
+#remove weird tick marks
+ax.set_yticks([],minor = True)
+#plot user point
+plt.plot(88.5, 98, marker = 'o', c = 'red')
+#label 
+plt.annotate('U',[88,170])
+plt.show()
+'''
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/112887807/199545161-5b7d26bc-88c7-47c4-8a0e-40570b06bf9d.png">
+
 Q: Does the friendship paradox hold for this user and their friends on Facebook?
+
+(* note *) : This user has 98 friends
+
+The friendship paradox holds for this user. When looking at the average, of this users friends, they have more friends than this user does. This can be seen in both the graph and the results of the code written above.
 
 Q2. Friendship Paradox on Twitter (4 points)
 Determine if the friendship paradox holds for your Twitter account. Since Twitter is a directed graph, use followers as the value you measure (i.e., "do your followers have more followers than you?").
@@ -46,6 +67,18 @@ Determine if the friendship paradox holds for your Twitter account. Since Twitte
 If you have less than 50 followers on Twitter, then you can do the analysis for another Twitter account (e.g., my account is acnwala) and substitute the user you pick for you in the questions below.
 
 Q: What is the mean, standard deviation, and median of the number of followers that your followers have?
+
+```python
+print('the mean followers of your friends followers: ' + str("{:.2f}".format(np.mean(follower_counts))))
+```
+
+```python
+print('the standard deviation of your friends followers: ' + str("{:.2f}".format(np.std(follower_counts))))
+```
+
+```python
+print('the median of your friends followers: ' + str("{:.2f}".format(np.median(follower_counts))))
+```
 
 Q: Does the friendship paradox hold for you and your followers on Twitter?
 
