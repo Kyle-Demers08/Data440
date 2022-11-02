@@ -57,7 +57,7 @@ plt.show()
 
 Q: Does the friendship paradox hold for this user and their friends on Facebook?
 
-(* note *) : This user has 98 friends
+*note* : This user has 98 friends
 
 The friendship paradox holds for this user. When looking at the average, of this users friends, they have more friends than this user does. This can be seen in both the graph and the results of the code written above.
 
