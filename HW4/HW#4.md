@@ -58,18 +58,20 @@ plt.show()
 ```
 <img width="450" alt="image" src="https://user-images.githubusercontent.com/112887807/199545161-5b7d26bc-88c7-47c4-8a0e-40570b06bf9d.png">
 
-Q: Does the friendship paradox hold for this user and their friends on Facebook?
+### Q: Does the friendship paradox hold for this user and their friends on Facebook?
 
 *note* : This user has 98 friends
 
 The friendship paradox holds for this user. When looking at the average, of this users friends, they have more friends than this user does. This can be seen in both the graph and the results of the code written above.
 
-Q2. Friendship Paradox on Twitter (4 points)
+---
+
+### Q2. Friendship Paradox on Twitter 
 Determine if the friendship paradox holds for your Twitter account. Since Twitter is a directed graph, use followers as the value you measure (i.e., "do your followers have more followers than you?").
 
 If you have less than 50 followers on Twitter, then you can do the analysis for another Twitter account (e.g., my account is acnwala) and substitute the user you pick for you in the questions below.
 
-Q: What is the mean, standard deviation, and median of the number of followers that your followers have?
+### Q: What is the mean, standard deviation, and median of the number of followers that your followers have?
 
 Since I do not have a twitter account, I am using user acnwala.
 
@@ -95,7 +97,9 @@ print('the median of your friends followers: ' + str("{:.2f}".format(np.median(f
 
 the median of your friends followers: 256.00
 
-Q: Does the friendship paradox hold for you and your followers on Twitter?
+---
+
+### Q: Does the friendship paradox hold for you and your followers on Twitter?
 
 You may use Twarc2 in Python to access the Twitter API to find a user's followers. The code to access the Twitter API should be similar to get_tweets.py, you may use that to start.
 
