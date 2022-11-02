@@ -37,6 +37,8 @@ print('the median of your friends followers: ' + str("{:.2f}".format(np.median(d
 
 the median of anwala's followers is 396
 
+---
+
 Create a graph of the number of friends (y-axis) and the friends themselves (x-axis), sorted by number of friends. The friends don't need to be labeled on the x-axis: 1, 2, 3,..., n should be sufficient. Include the user in the graph in the appropriate sorted position (count the number of their friends) and label as U.
 
 ```python
