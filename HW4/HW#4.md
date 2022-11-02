@@ -68,17 +68,29 @@ If you have less than 50 followers on Twitter, then you can do the analysis for 
 
 Q: What is the mean, standard deviation, and median of the number of followers that your followers have?
 
+Since I do not have a twitter account, I am using user acnwala.
+
+In order to find this information, I used the following python script to get the data of his twitter followers and append the relevant information to a list. From there I could simply copy and paste that list back into my jupyter notebook and use the data there.
+
+[getting followers python script](https://github.com/Kyle-Demers08/Data440/blob/main/HW4/Get_followers.py)
+
 ```python
 print('the mean followers of your friends followers: ' + str("{:.2f}".format(np.mean(follower_counts))))
 ```
+
+the mean followers of your friends followers: 1429.94
 
 ```python
 print('the standard deviation of your friends followers: ' + str("{:.2f}".format(np.std(follower_counts))))
 ```
 
+the standard deviation of your friends followers: 4722.65
+
 ```python
 print('the median of your friends followers: ' + str("{:.2f}".format(np.median(follower_counts))))
 ```
+
+the median of your friends followers: 256.00
 
 Q: Does the friendship paradox hold for you and your followers on Twitter?
 
