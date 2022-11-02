@@ -32,7 +32,7 @@ The standard deviation of anwala's followers is 536.67
 print('the median of your friends followers: ' + str("{:.2f}".format(np.median(df['counts']))))``` 
 ```
 
-the median of anwala's followers is 396
+The median of anwala's followers is 396
 
 ___
 
