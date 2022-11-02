@@ -52,7 +52,7 @@ plt.plot(88.5, 98, marker = 'o', c = 'red')
 #label 
 plt.annotate('U',[88,170])
 plt.show()
-'''
+```
 <img width="450" alt="image" src="https://user-images.githubusercontent.com/112887807/199545161-5b7d26bc-88c7-47c4-8a0e-40570b06bf9d.png">
 
 Q: Does the friendship paradox hold for this user and their friends on Facebook?
