@@ -58,11 +58,14 @@ plt.show()
 
 ### Q: Does the friendship paradox hold for this user and their friends on Facebook?
 
-*note* : This user has 98 friends
+*note :* This user has 98 friends
 
 The friendship paradox holds for this user. When looking at the average, of this users friends, they have more friends than this user does. This can be seen in both the graph and the results of the code written above.
 
 ### Discussion
+
+The friendship paradox is interesting because the mean is almost always going to be skewed by a few of the "popular" people, or at least the ones who care a lot about their social media presence. This can be seen by the high standard deviation. That is a big part og how this theory works however. You are more likely to be friends with people who have a large amount of friends relative to a small amount of friends. That means that sampling bias occurs as poeple with a lot of friends will likely be sampled. 
+
 ---
 
 ## Q2. Friendship Paradox on Twitter 
@@ -100,6 +103,13 @@ the median of your friends followers: 256.00
 
 ### Q: Does the friendship paradox hold for you and your followers on Twitter?
 
+*Note :* the user has 461 followers
+
+When looking at the mean of this users followers, they average 1429.94 which is more than the followers that this user has. However, when looking at the median, the friendship paradox does not hold. This is due to the upper bound of this users followers being magnitudes larger than the average and therefore skewing the mean upward. 
+
+### Discussion
+
+It is interesting to see the difference in average metrics. The higher end of the spectrum with the most followers has no significant impact on the median, while it plays a huge role in manipulating the mean. The friendship paradox seems like it would almost always hold true for most users. 
 You may use Twarc2 in Python to access the Twitter API to find a user's followers. The code to access the Twitter API should be similar to get_tweets.py, you may use that to start.
 
 Other helpful references:
