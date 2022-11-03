@@ -111,11 +111,12 @@ When looking at the mean of this users followers, they average 1429.94 which is 
 It is interesting to see the difference in average metrics. The higher end of the spectrum with the most followers has no significant impact on the median, while it plays a huge role in manipulating the mean. The friendship paradox seems like it would almost always hold true for most users. 
 
 ---
-
+### Extra
 Link to ipynb where many calculations and graphs were done:
 [link](https://github.com/Kyle-Demers08/Data440/blob/main/HW4/Untitled%20(2).ipynb)
 
-Resources:
+
+### Resources:
 programiz, <https://www.programiz.com/python-programming/methods/list/sort>
 
 github; using the twitter api, <https://github.com/twitterdev/getting-started-with-the-twitter-api-v2-for-academic-research/blob/main/modules/6b-labs-code-standard-python.md>
