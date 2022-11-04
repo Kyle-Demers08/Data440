@@ -121,5 +121,5 @@ programiz, <https://www.programiz.com/python-programming/methods/list/sort>
 
 github; using the twitter api, <https://github.com/twitterdev/getting-started-with-the-twitter-api-v2-for-academic-research/blob/main/modules/6b-labs-code-standard-python.md>
 
-github; twitters user object model, <https://developer.twitter.com/en/docs/twitter-api/data-dictionary/object-model/user>
+github; twitters user object model, <https://developer.twitter.com/en/docs/twitter-api/data-dictionary/object-model/user> 
 
