@@ -8,8 +8,6 @@ You will investigate the split of the Karate Club (Zachary, 1977), described sta
 ## Q1. Color nodes based on final split 
 Draw the original Karate club graph (before the split) and color the nodes according to the factions they belong to (John A or Mr. Hi). This should look similar to the graph on slide 92 - all edges should be present, just indicate the nodes in the eventual split by color.
 
-### Q: How many nodes (students) eventually go with John and how many with Mr. Hi?
-
 ### Answer:
 
 To get the colors, I used the matrix from the data set to get connections from either MrHi or John. This was used as a shortcut to labelling each individual node.
@@ -44,20 +42,54 @@ The result of this code lead me to get this graph
 
 <img width="312" alt="image" src="https://user-images.githubusercontent.com/112887807/202014989-fba6951b-37fb-4e22-9cb3-2829b1967064.png">
 
+### Q: How many nodes (students) eventually go with John and how many with Mr. Hi?
+
+### Answer:
+
+16 students will eventually go with Mr Hi (Green).
+
+16 students will eventually go with John (Red).
+
+*Note that these counts do not include the John or Mr. Hi themselves*
+
 ### Discussion
 
-The friendship paradox is interesting because the mean is almost always going to be skewed by a few of the "popular" people, or at least the ones who care a lot about their social media presence. This can be seen by the high standard deviation. That is a big part og how this theory works however. You are more likely to be friends with people who have a large amount of friends relative to a small amount of friends. That means that sampling bias occurs as poeple with a lot of friends will likely be sampled. 
+I was able to use whether or not they had a connection to the teacher to develop a first step at labeling each student. This correctly classified a third of the 
+students and I was able to hard code the rest of the students from the slide.
 
 ---
 
 ## Q2. Use the Girvan-Newman algorithm to illustrate the split
-Determine if the friendship paradox holds for your Twitter account. Since Twitter is a directed graph, use followers as the value you measure (i.e., "do your followers have more followers than you?").
 
 We know the final result of the Karate Club split, which you've colored in Q1. Use the Girvan-Newman algorithm to check if the split could have been predicted by the social interactions expressed by edges. How well does the mathematical model represent reality? Generously document your answer with all supporting equations, code, graphs, arguments, etc.
 
 Keeping the node colors the same as they were in Q1, run multiple iterations of the Girvan-Newman graph partioning algorithm (see Module-07 Social Networks, slides 90-99) on the Karate Club graph until the graph splits into two connected components. Include an image of the graph after each iteration in your report.
 
+### Answer:
+
+I created this function to eliminate the node with the most betweeness.
+
+```python
+def girvnew():
+    edgebetweendict = NC.edge_betweenness(g)
+    betweenlist = [edgebetweendict[i] for i in edgebetweendict]
+    idx = np.argmax(betweenlist)
+    rem = list(edgebetweendict)[idx]
+    g.remove_edge(rem[0],rem[1])
+    nx.draw(g, with_labels=True, node_color=color)
+```
+
+I then initialized a counter, called the function, and added one to the counter.
+Each graph per iteration is below as well as which edge was removed.
+
+<img width="287" alt="image" src="https://user-images.githubusercontent.com/112887807/202018947-d432f694-c4b7-4777-bb73-b9d8e9895c9f.png">
+
+<img width="326" alt="image" src="https://user-images.githubusercontent.com/112887807/202018997-60eca42a-5bc9-42c3-b073-de6cceb7d73f.png">
+
+
 ### Q:How many iterations did it take to split the graph?
+
+It took 11 iterations to fully split the graph
 
 ### Answer:
 
