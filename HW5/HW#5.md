@@ -1,5 +1,5 @@
 # Homework 4 - Exploring Social Networks
-Kyle Demers
+# Kyle Demers
 ## 11/3/2022
 
 Assignment
@@ -11,6 +11,7 @@ Draw the original Karate club graph (before the split) and color the nodes accor
 ### Q: How many nodes (students) eventually go with John and how many with Mr. Hi?
 
 ### Answer:
+
 To get the colors, I used the matrix from the data set to get connections from either MrHi or John. This was used as a shortcut to labelling each individual node.
 Then I cross refrenced my graph with slide 92 in the Module-07 Social Networks lecture slides and changed the colors accordingly. 
 ```python
@@ -41,7 +42,7 @@ nx.draw(g, with_labels=True, node_color=color)
 
 The result of this code lead me to get this graph
 
-![image.png](attachment:162d06db-5c67-4c06-8fc8-202213f865d2.png)
+<img width="312" alt="image" src="https://user-images.githubusercontent.com/112887807/202014989-fba6951b-37fb-4e22-9cb3-2829b1967064.png">
 
 ### Discussion
 
