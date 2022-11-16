@@ -129,11 +129,9 @@ red nodes groups. That means that the girvan newman model misclassified two node
 ---
 ### Extra
 Link to ipynb where many calculations and graphs were done:
-[link](https://github.com/Kyle-Demers08/Data440/blob/main/HW4/Untitled%20(2).ipynb)
+[link](https://github.com/Kyle-Demers08/Data440/blob/main/HW5/HW_5.ipynb)
 
 ### Resources:
-programiz, <https://www.programiz.com/python-programming/methods/list/sort>
+github; <https://gist.github.com/millionsmile/3682029>
 
-github; using the twitter api, <https://github.com/twitterdev/getting-started-with-the-twitter-api-v2-for-academic-research/blob/main/modules/6b-labs-code-standard-python.md>
-
-github; twitters user object model, <https://developer.twitter.com/en/docs/twitter-api/data-dictionary/object-model/user> 
+Google Slides, <https://docs.google.com/presentation/d/1Bey47wfUnBEy4O6j-T2X7y_bT0YNM6CN/edit#slide=id.p92>
