@@ -131,7 +131,6 @@ red nodes groups. That means that the girvan newman model misclassified two node
 Link to ipynb where many calculations and graphs were done:
 [link](https://github.com/Kyle-Demers08/Data440/blob/main/HW4/Untitled%20(2).ipynb)
 
-
 ### Resources:
 programiz, <https://www.programiz.com/python-programming/methods/list/sort>
 
