@@ -1,6 +1,6 @@
-# Homework 4 - Exploring Social Networks
+# Homework 5 - Graph Partitioning
 # Kyle Demers
-## 11/3/2022
+## 11/15/2022
 
 Assignment
 You will investigate the split of the Karate Club (Zachary, 1977), described starting on slide 92 in the Module-07 Social Networks lecture slides. You must use a Python or JavaScript library (as discussed in Module-09 Graph Vis) to generate the graphs required in this assignment.
