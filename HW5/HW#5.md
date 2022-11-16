@@ -110,15 +110,21 @@ Each graph per iteration is below as well as which edge was removed.
 
 It took 11 iterations to fully split the graph
 
+### Discussion:
+
+I couldn't find an automatic way to run a loop until there were 2 distinct clusters. I just had to run a block of code calling the function and 
+increase the counter by one. It feels weird not automating it, but this was my best solution.
+
 ---
 
 ## Q3. Compare the actual to the mathematical split 
 
 ### Q: Did all of the same colored nodes end up in the same group? If not, what is different?
 
-### Answer
+### Answer:
 
-Not all the nodes in the groups where the same color. 
+Not all the nodes in the groups where the same color. There are two nodes in John's group that are not meant to be there. There are two green nodes that are in the
+red nodes groups. That means that the girvan newman model misclassified two nodes.
 
 ---
 ### Extra
