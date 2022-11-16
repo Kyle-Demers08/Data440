@@ -106,9 +106,9 @@ Each graph per iteration is below as well as which edge was removed.
 
 ### Q:How many iterations did it take to split the graph?
 
-It took 11 iterations to fully split the graph
-
 ### Answer:
+
+It took 11 iterations to fully split the graph
 
 ---
 
@@ -117,6 +117,8 @@ It took 11 iterations to fully split the graph
 ### Q: Did all of the same colored nodes end up in the same group? If not, what is different?
 
 ### Answer
+
+Not all the nodes in the groups where the same color. 
 
 ---
 ### Extra
