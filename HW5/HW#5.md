@@ -86,6 +86,23 @@ Each graph per iteration is below as well as which edge was removed.
 
 <img width="326" alt="image" src="https://user-images.githubusercontent.com/112887807/202018997-60eca42a-5bc9-42c3-b073-de6cceb7d73f.png">
 
+<img width="309" alt="image" src="https://user-images.githubusercontent.com/112887807/202064338-ebce10cc-a7eb-4cbb-9f09-f444fa23f5af.png">
+
+<img width="355" alt="image" src="https://user-images.githubusercontent.com/112887807/202064394-b1873775-0673-4f08-9bee-02772ea39ebf.png">
+
+<img width="305" alt="image" src="https://user-images.githubusercontent.com/112887807/202064437-a865bbc5-78c8-447d-b53c-762507295619.png">
+
+<img width="307" alt="image" src="https://user-images.githubusercontent.com/112887807/202064477-be3b4265-c8dd-4ecd-a6ca-b237b6690277.png">
+
+<img width="319" alt="image" src="https://user-images.githubusercontent.com/112887807/202064524-541b717c-3ff5-497a-bbe6-f0aafbde6035.png">
+
+<img width="286" alt="image" src="https://user-images.githubusercontent.com/112887807/202064563-a2ec89e0-7915-4dc8-bf59-9a9de8086031.png">
+
+<img width="312" alt="image" src="https://user-images.githubusercontent.com/112887807/202064634-451d9a60-227f-4621-85c3-febed0d710f7.png">
+
+<img width="281" alt="image" src="https://user-images.githubusercontent.com/112887807/202064704-9ebd6d58-7c8a-4b46-abe6-fafb0a762ee4.png">
+
+<img width="286" alt="image" src="https://user-images.githubusercontent.com/112887807/202064817-5a80a128-0bca-4190-a73e-2c0ab5592c7b.png">
 
 ### Q:How many iterations did it take to split the graph?
 
