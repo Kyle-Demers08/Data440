@@ -132,6 +132,6 @@ Link to ipynb where many calculations and graphs were done:
 [link](https://github.com/Kyle-Demers08/Data440/blob/main/HW5/HW_5.ipynb)
 
 ### Resources:
-github; <https://gist.github.com/millionsmile/3682029>
+github, <https://gist.github.com/millionsmile/3682029>
 
 Google Slides, <https://docs.google.com/presentation/d/1Bey47wfUnBEy4O6j-T2X7y_bT0YNM6CN/edit#slide=id.p92>
