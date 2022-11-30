@@ -55,6 +55,10 @@ Below I've attatched a link to the code that the bot uses. I made sure to remove
 
 [Link To Code](https://github.com/Kyle-Demers08/Data440/blob/main/HW6/Christmas_Bot)
 
+Below is the link to the Twitter account
+
+[Christmans Countdown](https://twitter.com/KyleDemers08)
+
 ### Resources:
 
 Stack overflow, <https://stackoverflow.com/questions/22715086/scheduling-python-script-to-run-every-hour-accurately>
