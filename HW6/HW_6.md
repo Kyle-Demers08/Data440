@@ -10,10 +10,13 @@ However, not all bots are bad. In this assignment you will prove this point by c
 
 Write a report that contains the answers and explains how you arrived at the answers to the following questions. Before starting, review the HW report guidelines. Name your report for this assignment hw6_report with the proper file extension.
 
+---
+
 ## Criteria 1. Usefulness 
+
 Consider creating a bot to solve or partly solve a problem you care about --- maybe not poverty or crime or income inequality. In other words create a tool to address a need. Provide an argument in your report for the reason your Twitter bot is useful.
 
-## Answer
+### Answer
 
 Christmas is coming up and it's important not to let it sneak up on you. 
 It's also important to get on Santa's nice list. That means people should be doing good deeds. 
@@ -37,6 +40,7 @@ This bot could be useful for sports betters, or just for soccer enthusiasts.
 ---
 
 ### Criteria 2. Originality/Innovation (4 points)
+
 Express yourself, be creative. Alternatively, consider improving a pre-existing solution or tool. Provide an argument in your report for the reason your Twitter bot is original or innovative.
 
 Countdowns to large events aren't a new thing. You can google days till christmas and find that whenever you'd like.
