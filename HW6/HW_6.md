@@ -17,7 +17,8 @@ Christmas is coming up and it's important not to let it sneak up on you.
 It's also important to get on Santa's nice list. That means people should be doing good deeds. 
 My bot intends to serve as a Christmas countdown as well as provide good deeds to do. 
 The bot will post twice a day for two reminders as well as two seperate good deeds. 
-This is an important bot to have so that you don't forget to buy presents for loved ones, you do good things, and the holiday joy is being spread. 
+This is an important bot to have so that you don't forget to buy presents for loved ones, you do good things, and the holiday joy is being spread.
+On Christmas Eve and Christmas, the bot has special messages for tuning in.
 
 ### Discussion
 
