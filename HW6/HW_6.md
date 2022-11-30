@@ -40,5 +40,11 @@ Countdowns to large events aren't a new thing. You can google days till christma
 The reason this bot is great is because it gets you thinking about christmas every day. This way Christmas won't sneak up on you.
 This bot is also original in the sense that it gives you a good deed to do as well as counts down towards Christmas. 
 The bot is great for all ages, younger kids to get excited for Christmas, middling teens to do good things, and adults to be prepared for the Holiday.
+It's an innovative idea as this is an automated way to do something that if it were to be done, it would be by a human doing a tedious task.
 
 ---
+
+### Resources:
+
+Stack overflow, <https://stackoverflow.com/questions/22715086/scheduling-python-script-to-run-every-hour-accurately>
+WebFX, <https://www.webfx.com/tools/emoji-cheat-sheet/>
