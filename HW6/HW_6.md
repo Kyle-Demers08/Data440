@@ -46,7 +46,9 @@ It's an innovative idea as this is an automated way to do something that if it w
 ---
 
 Below I've attatched a link to the code that the bot uses. I made sure to remove my keys.
+
 [Link To Code](https://github.com/Kyle-Demers08/Data440/blob/main/HW6/Christmas_Bot)
+
 ### Resources:
 
 Stack overflow, <https://stackoverflow.com/questions/22715086/scheduling-python-script-to-run-every-hour-accurately>
