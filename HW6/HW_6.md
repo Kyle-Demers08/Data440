@@ -50,4 +50,5 @@ Below I've attatched a link to the code that the bot uses. I made sure to remove
 ### Resources:
 
 Stack overflow, <https://stackoverflow.com/questions/22715086/scheduling-python-script-to-run-every-hour-accurately>
+
 WebFX, <https://www.webfx.com/tools/emoji-cheat-sheet/>
