@@ -59,6 +59,11 @@ Below is the link to the Twitter account
 
 [Christmas Countdown](https://twitter.com/KyleDemers08)
 
+Working Results
+
+<img width="454" alt="image" src="https://user-images.githubusercontent.com/112887807/204881911-14350f4f-24ba-4bdb-8a47-491d230e4360.png">
+
+
 ### Resources:
 
 Stack overflow, <https://stackoverflow.com/questions/22715086/scheduling-python-script-to-run-every-hour-accurately>
