@@ -57,7 +57,7 @@ Below I've attatched a link to the code that the bot uses. I made sure to remove
 
 Below is the link to the Twitter account
 
-[Christmans Countdown](https://twitter.com/KyleDemers08)
+[Christmas Countdown](https://twitter.com/KyleDemers08)
 
 ### Resources:
 
