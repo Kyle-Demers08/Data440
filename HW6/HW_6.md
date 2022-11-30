@@ -1,5 +1,5 @@
-## Kyle Demers
-## Homework 6 - Creating (good) social bots
+# Kyle Demers
+# Homework 6 - Creating (good) social bots
 
 ## Assignment
 Social bots have been used to inflate the popularity of political candidates, influence public opinion through the spread of disinformation and conspiracy theories, and manipulate stock prices through coordinated campaigns. The threats posed by malicious actors that utilize social bots are far-reaching, endangering democracy, public health, and the economy.
