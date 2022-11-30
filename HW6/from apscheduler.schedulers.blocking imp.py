@@ -5,10 +5,10 @@ import random
 import tweepy
 import emoji
 
-client = tweepy.Client(consumer_key='a0rC17C7DJb1DaPDnuCnTRI6e',
-consumer_secret='BkJbd7weypuOaX2pEGDTYlKZfdYaebKUqQaBX5E0jp8CAbGe7u',
-access_token='1567934049842348032-gxJnvXa9wf92thaSJnR8vS1HuPzVCt',
-access_token_secret='hf4ajxQyZoVf8BQx5LiEHTDi44nyfHIQ0x0cZGmsghNCv')
+client = tweepy.Client(consumer_key='XXXXX',
+consumer_secret='XXXX',
+access_token='XXXXXXX',
+access_token_secret='XXXXXXXX')
 
 date_format = "%m/%d/%Y"
 christmas = datetime.strptime('12/25/2022', date_format) #this is christmas the year the script was written
@@ -52,5 +52,5 @@ def tweet():
 scheduler = BlockingScheduler()
 scheduler.add_job(tweet, 'interval', hours=12)
 scheduler.start()
-#note this bot would eventually break if the same dead was selected the same tweet next year, I would do more error handling for that
-#next steps would be to add more tweets
+#note this bot would eventually break if the same deed was selected the same tweet next year, I would do more error handling for that
+#next steps would be to add more deeds
