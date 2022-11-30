@@ -3,7 +3,7 @@
 ### 11/30/2022
 ---
 
-## Assignment
+### Assignment
 Social bots have been used to inflate the popularity of political candidates, influence public opinion through the spread of disinformation and conspiracy theories, and manipulate stock prices through coordinated campaigns. The threats posed by malicious actors that utilize social bots are far-reaching, endangering democracy, public health, and the economy.
 
 However, not all bots are bad. In this assignment you will prove this point by creating a (good) Twitter bot. You will NOT be scored on the complexity or sophistication of the Twitter bot, instead, you will be scored on the usefulness and originality/innovation of the bot.
@@ -12,7 +12,7 @@ Write a report that contains the answers and explains how you arrived at the ans
 
 ---
 
-## Criteria 1. Usefulness 
+### Criteria 1. Usefulness 
 
 Consider creating a bot to solve or partly solve a problem you care about --- maybe not poverty or crime or income inequality. In other words create a tool to address a need. Provide an argument in your report for the reason your Twitter bot is useful.
 
