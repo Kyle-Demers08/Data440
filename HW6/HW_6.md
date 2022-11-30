@@ -1,7 +1,8 @@
-Homework 6 - Creating (good) social bots
-Due: Tuesday, November 22, 2022 by 11:59pm Read through the entire assignment before starting. Do not wait until the last minute to start working on it.
+## Kyle Demers
+## Homework 6 - Creating (good) social bots
 
-Assignment
+--
+## Assignment
 Social bots have been used to inflate the popularity of political candidates, influence public opinion through the spread of disinformation and conspiracy theories, and manipulate stock prices through coordinated campaigns. The threats posed by malicious actors that utilize social bots are far-reaching, endangering democracy, public health, and the economy.
 
 However, not all bots are bad. In this assignment you will prove this point by creating a (good) Twitter bot. You will NOT be scored on the complexity or sophistication of the Twitter bot, instead, you will be scored on the usefulness and originality/innovation of the bot.
