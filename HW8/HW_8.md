@@ -14,16 +14,14 @@ Because we're trying to cluster the accounts based on the text in their tweets, 
 
 Save the list of accounts (screen_names), one per line, in a text file named accounts.txt and upload to your GitHub repo.
 
-### A: 
-How did you choose to collect the accounts?
+### A: How did you choose to collect the accounts?
 
 ### Response: 
 
 I choose to manually collect my accounts. I was able to look at the following of most of the leaders of the groups and get a list from there.
 There is also a see also page which allowed me to get other accounts if the following list ran dry.
 
-### B: 
-What topics/categories do the accounts belong to? You don't need to specify a grouping for each account, but what general topics/categories will you expect to be revealed by the clustering? Provide a this list before generating your clusters
+### B: What topics/categories do the accounts belong to? Provide a this list before generating your clusters.
 
 ### Response:
 
