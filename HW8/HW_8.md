@@ -48,6 +48,7 @@ Generat_tweet_vector.py creates both the term matrix and the popular terms test 
 B: Explain in detail the code that you added to filter for the 500 most frequent non-stopword terms.
 
 python```
+
 newcounts = {} #this will hold the counts for non stopwords
 for k in sumcounts:
     if k in wordlist:
