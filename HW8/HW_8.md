@@ -55,6 +55,7 @@ for k in sumcounts:
 popularlist = nlargest(500, newcounts,key = newcounts.get)
 ```
 
+
 C: Do the 500 most frequent terms make sense based on the accounts that you chose?
 
 Q3 - Create Dendrogram (1 point)
