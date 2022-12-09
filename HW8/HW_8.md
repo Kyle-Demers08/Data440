@@ -34,29 +34,10 @@ Before we can run the clustering code from the PCI book, we have to build an acc
 
 The PCI book provided code for creating the blog-term matrix given a list of blog feeds. I've provided similar code written by Dr. Michele Weigle's:
 
-tweet_parser.py - This is similar to the feedparser library mentioned on pg. 31. It contains two functions used by generate_tweet_vector.py:
-
-setup_api(filename) - set up and return a Twitter API object, filename is the file containing your API keys
-parse(api, screen_name, num_tweets=100) - use Twarc2 to download about 100 tweets (excluding replies and retweets) from the timeline of the screen_name account and return a dictionary with the following structure:
-{'screen_name': screen_name, 'tweets': [tweet1, tweet2, ...]}
-generate_tweet_vector.py - This is similar to generatefeedvector.py described on pgs. 31-33 in PCI. It contains main code and two functions:
-
-getwordcounts(api, screen_name) - calls parse() from tweet_parser.py and returns the screen_name and a dictionary of word counts appearing in that account's tweets, almost exactly like getwordcounts() in our examples
-getwords(tweet) - takes a tweet and returns a filtered list of words, similar to getwords() in our examples, but with some added filtering:
-removes URLs
-removes screen names (starting with @)
-splits words by non-alphabetic characters (and thus removes any numbers and symbols)
-removes any words < 3 characters or > 15 characters
-lowercases all words
-generate_tweet_vector.py requires that you have accounts.txt (from Q1) and tweet_parser.py located in the same folder.
-
-generate_tweet_vector.py will not work out-of-the-box.
-
-First, on line 51, you'll need to insert the path to your Twarc config file.
-Second, instead of creating an account-term matrix for every term in the tweets, I only want the 500 most popular terms that are not stopwords. You will need to write this code. To help with this, I've added a sumcounts dict that holds the words and frequency of those words over all accounts and a blank list popularlist where you should store the 500 most frequent non-stopword terms. On line 88, you'll see a section labeled # BEGIN YOUR CODE BLOCK. This is where you'll add your code.
+instead of creating an account-term matrix for every term in the tweets, I only want the 500 most popular terms that are not stopwords. You will need to write this code. To help with this, I've added a sumcounts dict that holds the words and frequency of those words over all accounts and a blank list popularlist where you should store the 500 most frequent non-stopword terms. On line 88, you'll see a section labeled # BEGIN YOUR CODE BLOCK. This is where you'll add your code.
 Once complete, generate_tweet_vector.py will produce two files that you need to upload to your GitHub repo:
 
-popular_terms.txt - the list (one per line) of the 500 most frequent terms in the tweets
+[https://github.com/Kyle-Demers08/Data440/blob/main/HW8/popular_terms.txt](popular_terms.txt) - the list (one per line) of the 500 most frequent terms in the tweets
 tweet_term_matrix.txt - the generated account-term matrix
 Once tweet_term_matrix.txt has been generated, you can use it in place of blogdata.txt in the example code to complete the remaining parts of this assignment.
 
