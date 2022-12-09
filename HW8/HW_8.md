@@ -67,14 +67,28 @@ Create an ASCII dendrogram and a JPEG dendrogram that uses hierarchical clusteri
 <img width="278" alt="image" src="https://user-images.githubusercontent.com/112887807/206788661-b7cc7f84-2170-46f2-91f3-e4db1ff0b4fc.png">
 
 [JPEG](https://github.com/Kyle-Demers08/Data440/blob/main/HW8/clusters.jpg)
+
 [ASCII](https://github.com/Kyle-Demers08/Data440/blob/main/HW8/ascii2.txt)
+
 A: How well did the hierarchical clustering do in grouping similar accounts together? Were there any particularly odd groupings?
+
+The clustering did a pretty good job at grouping things together. It did well at getting all the soccer teams together. Theres also a small subcategory of teams in the championship as opposed to the premier league. The business are also connected with some banks being clustered into small subgroups. The politicians are all grouped together with a few seemingly small subgroups. 
 
 Q4 - Cluster using k-Means (2 points)
 Cluster the accounts using k-Means, using k=5,10,20 (see Module 12, slide 34). For each value of k, create a file that lists the accounts in each cluster and upload to your GitHub repo.
 
 A: Give a brief explanation of how the k-Means algorithm operates on this data. What features is the algorithm considering?
 
+The k-means algorithm takes clusters by the closest k data points. The closesness is determined by how alike the features values are which in this case is how often each words are said. Those that use similar words will likely be similar accounts and then be clustered together.
+
 B: How many iterations were required for each value of k?
 
+When K was 5 there were 4 iterations
+When K was 10 there were 6 iterations
+When K was 20 there were also 6 iterations
+
+The number of iterations will not always be the same as no random state is specified. 
+
 C: Which k value created the most reasonable clusters? For that grouping, characterize the accounts that were clustered into each group.
+
+the k = 5 produced the best clusters. There was a group of clusters for soccer teams, 2 groups for business and 2 groups for politics. All of the soccer teams were correctly classified. Some of the more business focused politicians were mixed with the business accounts. As k went up, more clusters were made, and these clusters didn't have a clear reason as to why they were different from each other. With k = 5 the differentiation was clear.
