@@ -43,7 +43,17 @@ Once [tweet_term_matrix.txt](https://github.com/Kyle-Demers08/Data440/blob/main/
 
 A: Explain the general operation of generate_tweet_vector.py and how the tweets are converted to the account-term matrix.
 
+Generat_tweet_vector.py creates both the term matrix and the popular terms test files. It does this by grabbing 100 tweets from the accounts in accounts.txt and counting up each of the words. Those words get put into features of the term matrix and the counts are for each account. After going through each account, you would be able to see how many times in the past 100 tweets each account said each word. 
+
 B: Explain in detail the code that you added to filter for the 500 most frequent non-stopword terms.
+
+python```
+newcounts = {} #this will hold the counts for non stopwords
+for k in sumcounts:
+    if k in wordlist:
+        newcounts[k] = sumcounts[k] #gets word and counts if it is in the wordlist, puts it into a new dictionary
+popularlist = nlargest(500, newcounts,key = newcounts.get)
+```
 
 C: Do the 500 most frequent terms make sense based on the accounts that you chose?
 
