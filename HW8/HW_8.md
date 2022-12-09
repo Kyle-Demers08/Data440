@@ -55,8 +55,11 @@ for k in sumcounts:
 popularlist = nlargest(500, newcounts,key = newcounts.get)
 ```
 
+My code looks to grab words that aren't stop words. We use wordlist as this is the list of words that aren't stopwords. If the word in sumcount then the dictionary of newcounts appends the key and its value is the value attached to the words sumcounts. That means the newcounts dictionary has the key paired with it sum if the key is not a stopword. We then use nlargest to grab the 500 largest counts.
 
 C: Do the 500 most frequent terms make sense based on the accounts that you chose?
+
+The 500 most frequent terms make a lot of sense. The most frequent word is learn, likely because it used by business politics and sports. Then it is Biden which is of course a common political word. There are also words like global, inflation, worldcup, and win which all make sense. 
 
 Q3 - Create Dendrogram (1 point)
 Create an ASCII dendrogram and a JPEG dendrogram that uses hierarchical clustering to cluster the most similar accounts (see Module 12, slides 21, 23). Include the JPEG in your report and upload the ASCII file to GitHub (it will be too unwieldy for inclusion in the report).
