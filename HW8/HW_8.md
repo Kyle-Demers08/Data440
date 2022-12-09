@@ -37,9 +37,9 @@ The PCI book provided code for creating the blog-term matrix given a list of blo
 instead of creating an account-term matrix for every term in the tweets, I only want the 500 most popular terms that are not stopwords. You will need to write this code. To help with this, I've added a sumcounts dict that holds the words and frequency of those words over all accounts and a blank list popularlist where you should store the 500 most frequent non-stopword terms. On line 88, you'll see a section labeled # BEGIN YOUR CODE BLOCK. This is where you'll add your code.
 Once complete, generate_tweet_vector.py will produce two files that you need to upload to your GitHub repo:
 
-[popular_terms.txt](https://github.com/Kyle-Demers08/Data440/blob/main/HW8/popular_terms.txt)) - the list (one per line) of the 500 most frequent terms in the tweets
-tweet_term_matrix.txt - the generated account-term matrix
-Once tweet_term_matrix.txt has been generated, you can use it in place of blogdata.txt in the example code to complete the remaining parts of this assignment.
+[popular_terms.txt](https://github.com/Kyle-Demers08/Data440/blob/main/HW8/popular_terms.txt) - the list (one per line) of the 500 most frequent terms in the tweets
+[tweet_term_matrix.txt](https://github.com/Kyle-Demers08/Data440/blob/main/HW8/tweet_term_matrix.txt) - the generated account-term matrix
+Once [tweet_term_matrix.txt](https://github.com/Kyle-Demers08/Data440/blob/main/HW8/tweet_term_matrix.txt) has been generated, you can use it in place of blogdata.txt in the example code to complete the remaining parts of this assignment.
 
 A: Explain the general operation of generate_tweet_vector.py and how the tweets are converted to the account-term matrix.
 
