@@ -66,7 +66,7 @@ The 500 most frequent terms make a lot of sense. The most frequent word is learn
 
 ---
 
-Q3 - Create Dendrogram (1 point)
+### Q3 - Create Dendrogram (1 point)
 Create an ASCII dendrogram and a JPEG dendrogram that uses hierarchical clustering to cluster the most similar accounts (see Module 12, slides 21, 23). Include the JPEG in your report and upload the ASCII file to GitHub (it will be too unwieldy for inclusion in the report).
 
 <img width="278" alt="image" src="https://user-images.githubusercontent.com/112887807/206788661-b7cc7f84-2170-46f2-91f3-e4db1ff0b4fc.png">
