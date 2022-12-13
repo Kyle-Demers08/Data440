@@ -1,41 +1,42 @@
+# Kyle Demers
 # Final exam - Email Classification
 Due: Tuesday, December 20, 2022 by 11:59pm Read through the entire assignment before starting. Do not wait until the last minute to start working on it.
 
-Assignment
+## Assignment
 The goal of this assignment is to classify emails into two groups based on topic -- either relevant (on topic) or non-relevant (off topic). You may choose the topic based on what types of emails you typically receive (or what you have access to).
 
 Important: Much of the code for this assignment is provided for you, therefore, your report must include a high-level description of how the code works and answers to all of the sub-questions asked.
 
-Tips for Completing this Assignment:
+Name your report for this assignment final_exam_report with the proper file extension.
 
-First, read the entire assignment before starting.
-Don't start with a Google search. Your first references should be
-Module 13 lecture slides
-Class Colab notebook
-Programming Collective Intelligence book and Chapter 6 code
-Write a report that contains the answers and explains how you arrived at the answers to the following questions. Before starting, review the HW report guidelines. Name your report for this assignment final_exam_report with the proper file extension.
-
-(Report (2 points)
-
-Questions
-Q1 - Create two datasets, Testing and Training (2 points)
+### Q1 - Create two datasets, Testing and Training (2 points)
 Create two datasets, Training and Testing. You may choose a topic to classify your emails on (but choose only 1 topic). This can be spam, shopping emails, school emails, etc.
 
-The Training dataset should consist of
+The Training dataset should consist of:
 
 20 text documents for email messages you consider relevant to your chosen topic
+
 20 text documents for email messages you consider non-relevant to your chosen topic
+
 The Testing dataset should consist of:
 
 5 text documents for email messages you consider relevant to your chosen topic
+
 5 text documents for email messages you consider non-relevant to your chosen topic
+
 Make sure that these are plain-text documents and that they do not include HTML tags. The documents in the Testing set should be different from the documents in the Training set.
 
 Upload your datasets to your GitHub repo. Please do not include emails that contain sensitive information.
 
+[training deals](https://github.com/Kyle-Demers08/Data440/tree/main/HW9/Deals)
+[training non deals](https://github.com/Kyle-Demers08/Data440/tree/main/HW9/non_deals)
+[testing set](https://github.com/Kyle-Demers08/Data440/tree/main/HW9/testingset)
+
 A: What topic did you decide to classify on?
 
-Q2 - Naive Bayes classifier (3 points)
+I decided to classify emails based on whether or not the email was providing deals. Since we are around the holidays, I always want to look for deals to buy christmas presents. I find it a bit tedious to dig through my archrives to find a fun item at a good price. With further implementation, this would be useful to auto assign it to a folder in my inbox.
+
+### Q2 - Naive Bayes classifier (3 points)
 Use the example code in the class Colab notebook to train and test the Naive Bayes classifier.
 
 Use your Training dataset to train the Naive Bayes classifier.
