@@ -29,7 +29,9 @@ Make sure that these are plain-text documents and that they do not include HTML 
 Upload your datasets to your GitHub repo. Please do not include emails that contain sensitive information.
 
 [training deals](https://github.com/Kyle-Demers08/Data440/tree/main/HW9/Deals)
+
 [training non deals](https://github.com/Kyle-Demers08/Data440/tree/main/HW9/non_deals)
+
 [testing set](https://github.com/Kyle-Demers08/Data440/tree/main/HW9/testingset)
 
 A: What topic did you decide to classify on?
@@ -42,6 +44,41 @@ Use the example code in the class Colab notebook to train and test the Naive Bay
 Use your Training dataset to train the Naive Bayes classifier.
 Use your Testing dataset to test the Naive Bayes classifier.
 Create a table to report the classification results for each email message in the Testing dataset. The table should include what the classifier reported (relevant or non-relevant) and the actual classification.
+
+### Answer:
+
+Before training my model I had to make a few adjustments to the getwords script in order to read in txt files.
+
+```python
+def getwords(doc):
+    splitter = re.compile('\W+')  # different than book
+    with open(doc) as f:
+        lines = f.readlines()
+    words = []
+    for line in lines: 
+        for s in splitter.split(line):
+            if len(s) >2 and len(s)<20:
+                words.append(s.lower())
+    return words
+```
+
+I then created a function to read in all the files from a folder and use the naive bayes classifier
+
+```python
+def traindata(folder,label = 'deal'):
+    '''
+    Trains the data on every txt file in a folder
+    folder: where the emails are stored
+    label: if the email is a deal or not
+    '''
+    owd = os.getcwd() #get current working directory
+    os.chdir(folder) #change working directory to the file path
+    for file in os.listdir(): #for each email
+        if file.endswith('.txt'): #makesure its a txt file
+            cl.train(file,label) #train the data
+    os.chdir(owd) #reset working directory when done
+    return("Total items: " + str(cl.totalcount()),"Categories:", cl.categories(),'number of ' + label + ' : ' + str(cl.catcount(label)))
+```
 
 A: For those emails that the classifier got wrong, what factors might have caused the classifier to be incorrect? You will need to look at the text of the email to determine this.
 
