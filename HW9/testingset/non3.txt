@@ -1,0 +1,14 @@
+Dear students, 
+
+We are writing to you today to inform you that we are extending the date for the disabling of your Gmail and Google Calendar until the end of the academic year. This change will allow for email forwarding and notification processes within Google Workspace (Google Docs, Google Sheets, etc.) to continue.
+
+Last November we informed you that student email and calendar services would be migrated from Google Gmail to Microsoft O365. All student accounts have been successfully migrated and your O365 account (@wm.edu) is your primary account for all university communications.  
+
+As a reminder, Google Workspace apps are NOT going away. This change only affects the email and calendar functions. 
+
+In May we will reach out to you one last time with a reminder before the email forward is shut off and your Gmail and Google Calendars are disabled.  
+
+If you have any questions, please contact the Technology Support Center at support@wm.edu or 757-221-HELP.
+
+Sincerely,  
+William & Mary Information Technology

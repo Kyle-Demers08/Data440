@@ -1,0 +1,5 @@
+Hi Kyle Demers,
+
+Quarterbacks may get the glory, but just a few feet away, the offensive line protects the passer while the opposing team’s defensive line attempts to sack, block passes, and cause turnovers. Some of the game’s most important plays happen on the line and this competition examines the data behind the hardest workers in football.
+
+In this competition, you’ll uncover a new understanding of the offensive and defensive line when you use Next Gen Stats player tracking and PFF scouting data to build your model. The best entries will include actionable, creative, and novel stats.

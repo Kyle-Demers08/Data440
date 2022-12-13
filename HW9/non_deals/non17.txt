@@ -1,0 +1,21 @@
+Hi Kyle Demers,
+
+Online shoppers have their pick of millions of products from large retailers, yet so many options to explore can be overwhelming. Even shoppers who want to make a purchase can end up with empty carts—unless data science could enhance retailers' ability to predict which products each customer actually wants to see, add to their cart, and order in real time.
+
+In this competition, you’ll predict e-commerce clicks, cart additions, and orders by building a multi-objective recommender system based on previous events in a user session.
+
+Total Prizes:
+$30,000
+
+ 
+Entry Deadline:
+January 24th, 2023
+
+Learn More
+
+You could help improve the shopping experience for everyone involved, from customers who will receive more tailored recommendations to online retailers who may increase their sales.
+
+Good luck,
+
+Walter Reade
+Kaggle Data Scientist
