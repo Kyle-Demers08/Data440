@@ -86,6 +86,8 @@ The outputs ensured that I got the correct answer.
 
 A: For those emails that the classifier got wrong, what factors might have caused the classifier to be incorrect? You will need to look at the text of the email to determine this.
 
+Those 
+
 Q3 - Confusion Matrix (3 points)
 Draw a confusion matrix for your classification results (see Module 13, slides 42).
 
