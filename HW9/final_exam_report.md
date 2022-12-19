@@ -80,7 +80,7 @@ def traindata(folder,label = 'deal'):
     return("Total items: " + str(cl.totalcount()),"Categories:", cl.categories(),'number of ' + label + ' : ' + str(cl.catcount(label)))
 ```
 
-I didn't create a table, but rather an output to make sure I was getting the correct classification. For this I had to change my working directory to my testing files and then run the following code
+I didn't create a table, but rather an output to make sure I was getting the correct classification. For this I had to change my working directory to my testing files and then run the following code.
 
 <img width="271" alt="image" src="https://user-images.githubusercontent.com/112887807/208540794-65c25c14-e68e-4ef1-8fab-ea1fabc9fc27.png">
 
