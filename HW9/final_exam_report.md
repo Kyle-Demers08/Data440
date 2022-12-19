@@ -81,7 +81,9 @@ def traindata(folder,label = 'deal'):
 ```
 
 I didn't create a table, but rather an output to make sure I was getting the correct classification. For this I had to change my working directory to my testing files and then run the following code
+
 <img width="271" alt="image" src="https://user-images.githubusercontent.com/112887807/208540794-65c25c14-e68e-4ef1-8fab-ea1fabc9fc27.png">
+
 The outputs ensured that I got the correct answer. 
 
 A: For those emails that the classifier got wrong, what factors might have caused the classifier to be incorrect? You will need to look at the text of the email to determine this.
