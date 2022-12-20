@@ -109,8 +109,7 @@ The classifier performed very well as it correctly identified all of the emails.
 For my specific usage discussed earlier, I would rather a false positive. That means I would rather have the classifier predict it is a deal when it actually isn't as opposed to my classifier missing a deal. This is because I don't want to miss any deals. I would rather an email that doesn't have a deal be misclassified because that consequence is a mild incovenience which is a lot better than missing "the perfect gift". 
 
 Extra Credit
-Q4 (1 point)
-Report the precision and recall scores of your classification results. Include the formulas you used to compute these values.
+### Q4: Report the precision and recall scores of your classification results. Include the formulas you used to compute these values.
 
 Precision = 5/5 = 1
 
