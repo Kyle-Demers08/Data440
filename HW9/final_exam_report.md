@@ -116,3 +116,4 @@ Precision = 5/5 = 1
 recall = 5/5 = 1
 
 Since this doesn't demonstrate knowledge precision is the top left divided by sum of the left side in my confusion matrix while recall is top left divided by sum of the top row.
+ 
