@@ -115,15 +115,4 @@ Precision = 5/5 = 1
 
 recall = 5/5 = 1
 
-Since this doesn't demonstrate knowledge precision is the top left divided by sum of the left side in my confusion matrix while recall is top left divided by sum of the top row
-
-Q5 (2 points)
-Tune your classifier by updating weights to obtain better classification results. You may want to change the default weights (weight, ap) given to weightedprob() or the threshold used for the Bayesian classifier or change how the words are extracted from the document (for this you will need to re-train the model). Report the changes you made, re-run your Testing dataset, and show that the performance improved (either by using the confusion matrix or by computing precision and recall).
-
-If your classifier got all of the items correct in Q2, change the weights to make the classifier perform worse and discuss the results.
-
-Q6 (3 points)
-Implement the classifier with the Multinomial model instead of the multiple Bernoulli model and re-run Q2 and Q3. Did the classification improve? Ensure to remove the unique word filter from the extractor.
-
-For credit on this part, you must describe what you have done and discuss the differences between the Multinomial model and the multiple Bernoulli model.
-
+Since this doesn't demonstrate knowledge precision is the top left divided by sum of the left side in my confusion matrix while recall is top left divided by sum of the top row.
